@@ -1,6 +1,6 @@
 import os.path
 import sys
-sys.path.insert(0, r'../../../../')
+sys.path.insert(0, r'../../../')
 import logging
 from GLOBAL_EXP_CONFIG import *
 import numpy as np
