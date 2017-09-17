@@ -8,7 +8,7 @@ running = []
 def load():
 	global processes
 
-	processes.append('series/unigram/1layer/AE_UNIGRAMA_1L_OVER_F1_0.py')
+	processes.append('AE_UNIGRAMA_1L_OVER_F1_0.py')
 	
 
 
@@ -24,6 +24,7 @@ def run():
 def main():
 	load()
 	run()
+	#print( extract_name(sys.argv) )
 
 
 if __name__ == '__main__':
