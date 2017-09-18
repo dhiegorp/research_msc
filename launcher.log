@@ -1,0 +1,48 @@
+[2017-09-18 07:42:41,441 (line 25)]: sys.argv: ['process_launcher.py']
+[2017-09-18 07:42:41,441 (line 30)]: Starting process launcher with search term 'AE_*.py'
+[2017-09-18 07:42:41,441 (line 36)]: 20 item(s) found for search_term AE_*.py
+[2017-09-18 07:42:41,441 (line 39)]: Registering AE_UNIGRAMA_1L_OVER_F1_0.py for parallel execution.
+[2017-09-18 07:42:41,441 (line 39)]: Registering AE_UNIGRAMA_1L_OVER_F1_1.py for parallel execution.
+[2017-09-18 07:42:41,441 (line 39)]: Registering AE_UNIGRAMA_1L_OVER_F1_2.py for parallel execution.
+[2017-09-18 07:42:41,441 (line 39)]: Registering AE_UNIGRAMA_1L_OVER_F1_3.py for parallel execution.
+[2017-09-18 07:42:41,441 (line 39)]: Registering AE_UNIGRAMA_1L_OVER_F1_4.py for parallel execution.
+[2017-09-18 07:42:41,441 (line 39)]: Registering AE_UNIGRAMA_1L_OVER_F1_5.py for parallel execution.
+[2017-09-18 07:42:41,441 (line 39)]: Registering AE_UNIGRAMA_1L_OVER_F1_6.py for parallel execution.
+[2017-09-18 07:42:41,441 (line 39)]: Registering AE_UNIGRAMA_1L_OVER_F1_7.py for parallel execution.
+[2017-09-18 07:42:41,441 (line 39)]: Registering AE_UNIGRAMA_1L_OVER_F1_8.py for parallel execution.
+[2017-09-18 07:42:41,456 (line 39)]: Registering AE_UNIGRAMA_1L_OVER_F1_9.py for parallel execution.
+[2017-09-18 07:42:41,456 (line 39)]: Registering AE_UNIGRAMA_1L_OVER_F2_0.py for parallel execution.
+[2017-09-18 07:42:41,456 (line 39)]: Registering AE_UNIGRAMA_1L_UNDER_F0_1.py for parallel execution.
+[2017-09-18 07:42:41,456 (line 39)]: Registering AE_UNIGRAMA_1L_UNDER_F0_2.py for parallel execution.
+[2017-09-18 07:42:41,456 (line 39)]: Registering AE_UNIGRAMA_1L_UNDER_F0_3.py for parallel execution.
+[2017-09-18 07:42:41,456 (line 39)]: Registering AE_UNIGRAMA_1L_UNDER_F0_4.py for parallel execution.
+[2017-09-18 07:42:41,456 (line 39)]: Registering AE_UNIGRAMA_1L_UNDER_F0_5.py for parallel execution.
+[2017-09-18 07:42:41,456 (line 39)]: Registering AE_UNIGRAMA_1L_UNDER_F0_6.py for parallel execution.
+[2017-09-18 07:42:41,456 (line 39)]: Registering AE_UNIGRAMA_1L_UNDER_F0_7.py for parallel execution.
+[2017-09-18 07:42:41,456 (line 39)]: Registering AE_UNIGRAMA_1L_UNDER_F0_8.py for parallel execution.
+[2017-09-18 07:42:41,456 (line 39)]: Registering AE_UNIGRAMA_1L_UNDER_F0_9.py for parallel execution.
+[2017-09-18 07:42:41,456 (line 48)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_0.py
+[2017-09-18 07:42:41,472 (line 48)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_1.py
+[2017-09-18 07:42:41,488 (line 48)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_2.py
+[2017-09-18 07:42:41,503 (line 48)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_3.py
+[2017-09-18 07:42:41,519 (line 48)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_4.py
+[2017-09-18 07:42:41,534 (line 48)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_5.py
+[2017-09-18 07:42:41,550 (line 48)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_6.py
+[2017-09-18 07:42:41,582 (line 48)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_7.py
+[2017-09-18 07:42:41,613 (line 48)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_8.py
+[2017-09-18 07:42:41,626 (line 48)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_9.py
+[2017-09-18 07:42:41,662 (line 48)]: Opening process for AE_UNIGRAMA_1L_OVER_F2_0.py
+[2017-09-18 07:42:41,724 (line 48)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_1.py
+[2017-09-18 07:42:41,756 (line 48)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_2.py
+[2017-09-18 07:42:41,771 (line 48)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_3.py
+[2017-09-18 07:42:41,818 (line 48)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_4.py
+[2017-09-18 07:42:41,865 (line 48)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_5.py
+[2017-09-18 07:42:41,880 (line 48)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_6.py
+[2017-09-18 07:42:41,927 (line 48)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_7.py
+[2017-09-18 07:42:41,943 (line 48)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_8.py
+[2017-09-18 07:42:41,990 (line 48)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_9.py
+[2017-09-18 07:57:17,323 (line 25)]: sys.argv: ['process_launcher.py', '*OVER_F1_0.py']
+[2017-09-18 07:57:17,323 (line 30)]: Starting process launcher with search term '*OVER_F1_0.py'
+[2017-09-18 07:57:17,323 (line 36)]: 1 item(s) found for search_term *OVER_F1_0.py
+[2017-09-18 07:57:17,323 (line 39)]: Registering AE_UNIGRAMA_1L_OVER_F1_0.py for parallel execution.
+[2017-09-18 07:57:17,323 (line 48)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_0.py

@@ -2,24 +2,41 @@ import sys
 import subprocess
 import os
 import glob
+import logging
 
 processes = []
 running = []
 search_term = "AE_*.py"
 
+logFormat = logging.Formatter('[%(asctime)s (line %(lineno)s)]: %(message)s')
 
-print('>>>>>>>>>>>>',len(sys.argv), '-----', sys.argv)
+rootLogger = logging.getLogger()
+rootLogger.setLevel(logging.DEBUG)
+
+fileLogger = logging.FileHandler('launcher.log')
+fileLogger.setFormatter(logFormat)
+
+consoleLogger = logging.StreamHandler()
+consoleLogger.setFormatter(logFormat)
+
+rootLogger.addHandler(fileLogger)
+rootLogger.addHandler(consoleLogger)
+
+logging.debug('sys.argv: ' + str(sys.argv) )
+
 if len(sys.argv) == 2:
 	search_term = sys.argv[1]
+
+logging.debug("Starting process launcher with search term \'" + search_term + "\'" )
 
 def load():
 	global processes
 
 	filelist = glob.glob( search_term )
-	print('For search_term ', search_term, '  ', str(len(filelist)), ' item(s) found') 
+	logging.debug(str(len(filelist)) + ' item(s) found for search_term ' + search_term) 
 
 	for filename in glob.glob( search_term ):
-			print('Registering ', filename, ' for parallel execution.')
+			logging.debug('Registering ' + filename + ' for parallel execution.')
 			processes.append( filename )
 	
 
@@ -28,6 +45,7 @@ def run():
 	global processes, running
 
 	for proc in processes:
+		logging.debug('Opening process for ' + proc)
 		running.append( subprocess.Popen( [sys.executable, proc] ) )
 
 	for proc in running:
@@ -36,7 +54,6 @@ def run():
 def main():
 	load()
 	run()
-	#print( extract_name(sys.argv) )
 
 
 if __name__ == '__main__':
