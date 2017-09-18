@@ -1,5 +1,5 @@
 import os.path
-import syss
+import sys
 import logging
 from GLOBAL_EXP_FUNCTIONS import *
 from GLOBAL_EXP_CONFIG_1L_UNIGRAM import *

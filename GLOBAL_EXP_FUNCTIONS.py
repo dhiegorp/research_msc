@@ -1,3 +1,5 @@
+import os.path
+from GLOBAL_EXP_CONFIG_1L_UNIGRAM import *
 
 def mark_as_done(network_name):
 	with open(GLOBAL['executed_dir'] + network_name, 'a') as file:

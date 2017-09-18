@@ -9,7 +9,7 @@ GLOBAL = {
 	'tensorflow_dir':'C:/Users/dhieg/research/research_msc/tensorflow/onelayer/unigram/',
 	'checkpoints_dir':'C:/Users/dhieg/research/research_msc/checkpoints/onelayer/unigram/',
 	'executed_dir':'C:/Users/dhieg/research/research_msc/executed/onelayer/unigram/',
-	'data_dir':'C:/Users/dhieg/research/malware_dataset	/malware_selected_1gram.pkl',
+	'data_dir':'C:/Users/dhieg/research/malware_dataset/malware_selected_1gram.pkl',
 	'data_target_list' : [1,2,3,4,5,6,7,8,9],
 	'epochs': 1000,
 	'batch': 32,

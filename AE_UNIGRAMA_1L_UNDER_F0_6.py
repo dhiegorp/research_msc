@@ -1,6 +1,6 @@
 import os.path
 import sys
-import 
+import logging
 from GLOBAL_EXP_FUNCTIONS import *
 from GLOBAL_EXP_CONFIG_1L_UNIGRAM import *
 import numpy as np

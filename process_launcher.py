@@ -1,14 +1,26 @@
 import sys
 import subprocess
-
+import os
+import glob
 
 processes = []
 running = []
+search_term = "AE_*.py"
+
+
+print('>>>>>>>>>>>>',len(sys.argv), '-----', sys.argv)
+if len(sys.argv) == 2:
+	search_term = sys.argv[1]
 
 def load():
 	global processes
 
-	processes.append('AE_UNIGRAMA_1L_OVER_F1_0.py')
+	filelist = glob.glob( search_term )
+	print('For search_term ', search_term, '  ', str(len(filelist)), ' item(s) found') 
+
+	for filename in glob.glob( search_term ):
+			print('Registering ', filename, ' for parallel execution.')
+			processes.append( filename )
 	
 
 
