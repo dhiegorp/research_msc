@@ -46,3 +46,51 @@
 [2017-09-18 07:57:17,323 (line 36)]: 1 item(s) found for search_term *OVER_F1_0.py
 [2017-09-18 07:57:17,323 (line 39)]: Registering AE_UNIGRAMA_1L_OVER_F1_0.py for parallel execution.
 [2017-09-18 07:57:17,323 (line 48)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_0.py
+[2017-09-18 13:29:11,086 (line 25)]: sys.argv: ['process_launcher.py', 'AE_BIGRA*']
+[2017-09-18 13:29:11,087 (line 30)]: Starting process launcher with search term 'AE_BIGRA*'
+[2017-09-18 13:29:11,089 (line 36)]: 20 item(s) found for search_term AE_BIGRA*
+[2017-09-18 13:29:11,090 (line 39)]: Registering AE_BIGRAMA_1L_OVER_F1_0.py for parallel execution.
+[2017-09-18 13:29:11,091 (line 39)]: Registering AE_BIGRAMA_1L_OVER_F1_1.py for parallel execution.
+[2017-09-18 13:29:11,092 (line 39)]: Registering AE_BIGRAMA_1L_OVER_F1_2.py for parallel execution.
+[2017-09-18 13:29:11,092 (line 39)]: Registering AE_BIGRAMA_1L_OVER_F1_3.py for parallel execution.
+[2017-09-18 13:29:11,093 (line 39)]: Registering AE_BIGRAMA_1L_OVER_F1_4.py for parallel execution.
+[2017-09-18 13:29:11,093 (line 39)]: Registering AE_BIGRAMA_1L_OVER_F1_5.py for parallel execution.
+[2017-09-18 13:29:11,094 (line 39)]: Registering AE_BIGRAMA_1L_OVER_F1_6.py for parallel execution.
+[2017-09-18 13:29:11,094 (line 39)]: Registering AE_BIGRAMA_1L_OVER_F1_7.py for parallel execution.
+[2017-09-18 13:29:11,094 (line 39)]: Registering AE_BIGRAMA_1L_OVER_F1_8.py for parallel execution.
+[2017-09-18 13:29:11,095 (line 39)]: Registering AE_BIGRAMA_1L_OVER_F1_9.py for parallel execution.
+[2017-09-18 13:29:11,095 (line 39)]: Registering AE_BIGRAMA_1L_OVER_F2_0.py for parallel execution.
+[2017-09-18 13:29:11,096 (line 39)]: Registering AE_BIGRAMA_1L_UNDER_F0_1.py for parallel execution.
+[2017-09-18 13:29:11,096 (line 39)]: Registering AE_BIGRAMA_1L_UNDER_F0_2.py for parallel execution.
+[2017-09-18 13:29:11,097 (line 39)]: Registering AE_BIGRAMA_1L_UNDER_F0_3.py for parallel execution.
+[2017-09-18 13:29:11,097 (line 39)]: Registering AE_BIGRAMA_1L_UNDER_F0_4.py for parallel execution.
+[2017-09-18 13:29:11,098 (line 39)]: Registering AE_BIGRAMA_1L_UNDER_F0_5.py for parallel execution.
+[2017-09-18 13:29:11,098 (line 39)]: Registering AE_BIGRAMA_1L_UNDER_F0_6.py for parallel execution.
+[2017-09-18 13:29:11,099 (line 39)]: Registering AE_BIGRAMA_1L_UNDER_F0_7.py for parallel execution.
+[2017-09-18 13:29:11,099 (line 39)]: Registering AE_BIGRAMA_1L_UNDER_F0_8.py for parallel execution.
+[2017-09-18 13:29:11,100 (line 39)]: Registering AE_BIGRAMA_1L_UNDER_F0_9.py for parallel execution.
+[2017-09-18 13:29:11,100 (line 48)]: Opening process for AE_BIGRAMA_1L_OVER_F1_0.py
+[2017-09-18 13:29:11,113 (line 48)]: Opening process for AE_BIGRAMA_1L_OVER_F1_1.py
+[2017-09-18 13:29:11,125 (line 48)]: Opening process for AE_BIGRAMA_1L_OVER_F1_2.py
+[2017-09-18 13:29:11,138 (line 48)]: Opening process for AE_BIGRAMA_1L_OVER_F1_3.py
+[2017-09-18 13:29:11,150 (line 48)]: Opening process for AE_BIGRAMA_1L_OVER_F1_4.py
+[2017-09-18 13:29:11,163 (line 48)]: Opening process for AE_BIGRAMA_1L_OVER_F1_5.py
+[2017-09-18 13:29:11,175 (line 48)]: Opening process for AE_BIGRAMA_1L_OVER_F1_6.py
+[2017-09-18 13:29:11,188 (line 48)]: Opening process for AE_BIGRAMA_1L_OVER_F1_7.py
+[2017-09-18 13:29:11,201 (line 48)]: Opening process for AE_BIGRAMA_1L_OVER_F1_8.py
+[2017-09-18 13:29:11,214 (line 48)]: Opening process for AE_BIGRAMA_1L_OVER_F1_9.py
+[2017-09-18 13:29:11,228 (line 48)]: Opening process for AE_BIGRAMA_1L_OVER_F2_0.py
+[2017-09-18 13:29:11,241 (line 48)]: Opening process for AE_BIGRAMA_1L_UNDER_F0_1.py
+[2017-09-18 13:29:11,254 (line 48)]: Opening process for AE_BIGRAMA_1L_UNDER_F0_2.py
+[2017-09-18 13:29:11,268 (line 48)]: Opening process for AE_BIGRAMA_1L_UNDER_F0_3.py
+[2017-09-18 13:29:11,284 (line 48)]: Opening process for AE_BIGRAMA_1L_UNDER_F0_4.py
+[2017-09-18 13:29:11,337 (line 48)]: Opening process for AE_BIGRAMA_1L_UNDER_F0_5.py
+[2017-09-18 13:29:11,350 (line 48)]: Opening process for AE_BIGRAMA_1L_UNDER_F0_6.py
+[2017-09-18 13:29:11,381 (line 48)]: Opening process for AE_BIGRAMA_1L_UNDER_F0_7.py
+[2017-09-18 13:29:11,393 (line 48)]: Opening process for AE_BIGRAMA_1L_UNDER_F0_8.py
+[2017-09-18 13:29:11,425 (line 48)]: Opening process for AE_BIGRAMA_1L_UNDER_F0_9.py
+[2017-09-18 13:33:28,313 (line 25)]: sys.argv: ['process_launcher.py', 'AE_BIGRA*F1_0.py']
+[2017-09-18 13:33:28,314 (line 30)]: Starting process launcher with search term 'AE_BIGRA*F1_0.py'
+[2017-09-18 13:33:28,316 (line 36)]: 1 item(s) found for search_term AE_BIGRA*F1_0.py
+[2017-09-18 13:33:28,318 (line 39)]: Registering AE_BIGRAMA_1L_OVER_F1_0.py for parallel execution.
+[2017-09-18 13:33:28,318 (line 48)]: Opening process for AE_BIGRAMA_1L_OVER_F1_0.py
