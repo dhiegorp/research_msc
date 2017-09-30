@@ -1,0 +1,161 @@
+[2017-09-30 01:09:41,726 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:155]: >> Initializing execution of experiment AE_BIGRAMA_1L_UNDER_F0_1_ALT
+[2017-09-30 01:09:41,726 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:156]: >> Printing header log
+[2017-09-30 01:09:41,726 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:47]: 
+	=======================================
+	network_name = AE_BIGRAMA_1L_UNDER_F0_1_ALT
+	layers = 9216,921
+	using GLOBAL obj = 
+		{'log_dir': 'c:/users/dhieg/research/research_msc/logs/onelayer/bigram/', 'data_dir': 'c:/users/dhieg/research/malware_dataset/malware_selected_2gram.pkl', 'shuffle_batches': True, 'data_target_list': [1, 2, 3, 4, 5, 6, 7, 8, 9], 'executed_dir': 'c:/users/dhieg/research/research_msc/executed/onelayer/bigram/', 'autoencoder_configs': {'discard_decoder_function': True, 'optimizer': <keras.optimizers.SGD object at 0x00000248A7BF9CC0>, 'hidden_layer_activation': 'relu', 'output_layer_activation': 'relu', 'loss_function': 'mse'}, 'checkpoints_dir': 'c:/users/dhieg/research/research_msc/checkpoints/onelayer/bigram/', 'batch': 32, 'log_format': '[%(asctime)s %(filename)s:%(lineno)s]: %(message)s', 'epochs': 1000, 'store_history': True, 'mlp_configs': {'activation': 'sigmoid', 'use_last_dim_as_classifier': False, 'optimizer': <keras.optimizers.SGD object at 0x00000248A7BED470>, 'classifier_dim': 9, 'loss_function': 'categorical_crossentropy'}, 'numpy_seed': 666, 'reports_dir': 'c:/users/dhieg/research/research_msc/reports/onelayer/bigram/', 'tensorflow_dir': 'c:/users/dhieg/research/research_msc/tensorflow/onelayer/bigram/'}
+	=======================================
+	
+[2017-09-30 01:09:41,726 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:158]: >> Loading dataset... 
+[2017-09-30 01:09:43,069 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:63]: 
+	=======================================
+	loading malware dataset on = c:/users/dhieg/research/malware_dataset/malware_selected_2gram.pkl	
+	trainx shape = (8147, 9216)
+	trainy shape = (8147, 9)
+	valx shape = (2721, 9216)
+	valy shape = (2721, 9)
+	=======================================
+	
+[2017-09-30 01:09:43,069 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:160]: >> Executing autoencoder part ... 
+[2017-09-30 01:09:43,069 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:68]: =======================================
+[2017-09-30 01:09:43,069 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:73]: setting configurations for autoencoder: 
+	 {'discard_decoder_function': True, 'optimizer': <keras.optimizers.SGD object at 0x00000248A7BF9CC0>, 'hidden_layer_activation': 'relu', 'output_layer_activation': 'relu', 'loss_function': 'mse'}
+[2017-09-30 01:09:43,116 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:84]: training and evaluate autoencoder
+[2017-09-30 01:09:49,598 summary.py:89]: Summary name enc0_921/kernel:0 is illegal; using enc0_921/kernel_0 instead.
+[2017-09-30 01:09:49,614 summary.py:89]: Summary name enc0_921/bias:0 is illegal; using enc0_921/bias_0 instead.
+[2017-09-30 01:09:49,614 summary.py:89]: Summary name dec0_9216/kernel:0 is illegal; using dec0_9216/kernel_0 instead.
+[2017-09-30 01:09:49,614 summary.py:89]: Summary name dec0_9216/bias:0 is illegal; using dec0_9216/bias_0 instead.
+[2017-09-30 01:10:54,688 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:155]: >> Initializing execution of experiment AE_BIGRAMA_1L_UNDER_F0_1_ALT
+[2017-09-30 01:10:54,688 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:156]: >> Printing header log
+[2017-09-30 01:10:54,688 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:47]: 
+	=======================================
+	network_name = AE_BIGRAMA_1L_UNDER_F0_1_ALT
+	layers = 9216,921
+	using GLOBAL obj = 
+		{'reports_dir': 'c:/users/dhieg/research/research_msc/reports/onelayer/bigram/', 'checkpoints_dir': 'c:/users/dhieg/research/research_msc/checkpoints/onelayer/bigram/', 'shuffle_batches': True, 'numpy_seed': 666, 'epochs': 1000, 'data_dir': 'c:/users/dhieg/research/malware_dataset/malware_selected_2gram_mini.pkl', 'executed_dir': 'c:/users/dhieg/research/research_msc/executed/onelayer/bigram/', 'log_dir': 'c:/users/dhieg/research/research_msc/logs/onelayer/bigram/', 'autoencoder_configs': {'output_layer_activation': 'relu', 'loss_function': 'mse', 'optimizer': <keras.optimizers.SGD object at 0x000002C806AC8D30>, 'hidden_layer_activation': 'relu', 'discard_decoder_function': True}, 'log_format': '[%(asctime)s %(filename)s:%(lineno)s]: %(message)s', 'batch': 32, 'mlp_configs': {'loss_function': 'categorical_crossentropy', 'classifier_dim': 9, 'optimizer': <keras.optimizers.SGD object at 0x000002C806ABC518>, 'use_last_dim_as_classifier': False, 'activation': 'sigmoid'}, 'data_target_list': [1, 2, 3, 4, 5, 6, 7, 8, 9], 'store_history': True, 'tensorflow_dir': 'c:/users/dhieg/research/research_msc/tensorflow/onelayer/bigram/'}
+	=======================================
+	
+[2017-09-30 01:10:54,688 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:158]: >> Loading dataset... 
+[2017-09-30 01:15:27,116 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:155]: >> Initializing execution of experiment AE_BIGRAMA_1L_UNDER_F0_1_ALT
+[2017-09-30 01:15:27,116 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:156]: >> Printing header log
+[2017-09-30 01:15:27,116 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:47]: 
+	=======================================
+	network_name = AE_BIGRAMA_1L_UNDER_F0_1_ALT
+	layers = 9216,921
+	using GLOBAL obj = 
+		{'tensorflow_dir': 'c:/users/dhieg/research/research_msc/tensorflow/onelayer/bigram/', 'batch': 32, 'store_history': True, 'data_dir': 'c:/users/dhieg/research/malware_dataset/malware_selected_2gram_mini.pkl', 'epochs': 1000, 'executed_dir': 'c:/users/dhieg/research/research_msc/executed/onelayer/bigram/', 'mlp_configs': {'use_last_dim_as_classifier': False, 'classifier_dim': 9, 'loss_function': 'categorical_crossentropy', 'optimizer': <keras.optimizers.SGD object at 0x000002EEF9238CF8>, 'activation': 'sigmoid'}, 'data_target_list': [1, 2, 3, 4, 5, 6, 7, 8, 9], 'checkpoints_dir': 'c:/users/dhieg/research/research_msc/checkpoints/onelayer/bigram/', 'numpy_seed': 666, 'log_dir': 'c:/users/dhieg/research/research_msc/logs/onelayer/bigram/', 'reports_dir': 'c:/users/dhieg/research/research_msc/reports/onelayer/bigram/', 'shuffle_batches': True, 'autoencoder_configs': {'discard_decoder_function': True, 'loss_function': 'mse', 'optimizer': <keras.optimizers.SGD object at 0x000002EEF38BE438>, 'output_layer_activation': 'relu', 'hidden_layer_activation': 'relu'}, 'log_format': '[%(asctime)s %(filename)s:%(lineno)s]: %(message)s'}
+	=======================================
+	
+[2017-09-30 01:15:27,116 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:158]: >> Loading dataset... 
+[2017-09-30 01:15:27,460 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:63]: 
+	=======================================
+	loading malware dataset on = c:/users/dhieg/research/malware_dataset/malware_selected_2gram_mini.pkl	
+	trainx shape = (1627, 9216)
+	trainy shape = (1627, 9)
+	valx shape = (1076, 9216)
+	valy shape = (1076, 9)
+	=======================================
+	
+[2017-09-30 01:15:27,460 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:160]: >> Executing autoencoder part ... 
+[2017-09-30 01:15:27,460 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:68]: =======================================
+[2017-09-30 01:15:27,460 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:73]: setting configurations for autoencoder: 
+	 {'discard_decoder_function': True, 'loss_function': 'mse', 'optimizer': <keras.optimizers.SGD object at 0x000002EEF38BE438>, 'output_layer_activation': 'relu', 'hidden_layer_activation': 'relu'}
+[2017-09-30 01:15:27,507 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:84]: training and evaluate autoencoder
+[2017-09-30 01:15:30,086 summary.py:89]: Summary name enc0_921/kernel:0 is illegal; using enc0_921/kernel_0 instead.
+[2017-09-30 01:15:30,086 summary.py:89]: Summary name enc0_921/bias:0 is illegal; using enc0_921/bias_0 instead.
+[2017-09-30 01:15:30,086 summary.py:89]: Summary name dec0_9216/kernel:0 is illegal; using dec0_9216/kernel_0 instead.
+[2017-09-30 01:15:30,086 summary.py:89]: Summary name dec0_9216/bias:0 is illegal; using dec0_9216/bias_0 instead.
+[2017-09-30 01:16:31,627 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:155]: >> Initializing execution of experiment AE_BIGRAMA_1L_UNDER_F0_1_ALT
+[2017-09-30 01:16:31,627 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:156]: >> Printing header log
+[2017-09-30 01:16:31,627 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:47]: 
+	=======================================
+	network_name = AE_BIGRAMA_1L_UNDER_F0_1_ALT
+	layers = 9216,921
+	using GLOBAL obj = 
+		{'executed_dir': 'c:/users/dhieg/research/research_msc/executed/onelayer/bigram/', 'log_format': '[%(asctime)s %(filename)s:%(lineno)s]: %(message)s', 'epochs': 1000, 'tensorflow_dir': 'c:/users/dhieg/research/research_msc/tensorflow/onelayer/bigram/', 'autoencoder_configs': {'loss_function': 'mse', 'output_layer_activation': 'relu', 'optimizer': <keras.optimizers.SGD object at 0x00000292695BE438>, 'discard_decoder_function': True, 'hidden_layer_activation': 'relu'}, 'batch': 32, 'data_target_list': [1, 2, 3, 4, 5, 6, 7, 8, 9], 'mlp_configs': {'use_last_dim_as_classifier': False, 'classifier_dim': 9, 'activation': 'sigmoid', 'optimizer': <keras.optimizers.SGD object at 0x000002926EF274E0>, 'loss_function': 'categorical_crossentropy'}, 'reports_dir': 'c:/users/dhieg/research/research_msc/reports/onelayer/bigram/', 'store_history': True, 'numpy_seed': 666, 'shuffle_batches': True, 'log_dir': 'c:/users/dhieg/research/research_msc/logs/onelayer/bigram/', 'data_dir': 'c:/users/dhieg/research/malware_dataset/malware_selected_2gram_mini.pkl', 'checkpoints_dir': 'c:/users/dhieg/research/research_msc/checkpoints/onelayer/bigram/'}
+	=======================================
+	
+[2017-09-30 01:16:31,627 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:158]: >> Loading dataset... 
+[2017-09-30 01:16:31,987 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:63]: 
+	=======================================
+	loading malware dataset on = c:/users/dhieg/research/malware_dataset/malware_selected_2gram_mini.pkl	
+	trainx shape = (1627, 9216)
+	trainy shape = (1627, 9)
+	valx shape = (1076, 9216)
+	valy shape = (1076, 9)
+	=======================================
+	
+[2017-09-30 01:16:31,987 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:160]: >> Executing autoencoder part ... 
+[2017-09-30 01:16:31,987 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:68]: =======================================
+[2017-09-30 01:16:31,987 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:73]: setting configurations for autoencoder: 
+	 {'loss_function': 'mse', 'output_layer_activation': 'relu', 'optimizer': <keras.optimizers.SGD object at 0x00000292695BE438>, 'discard_decoder_function': True, 'hidden_layer_activation': 'relu'}
+[2017-09-30 01:16:32,034 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:84]: training and evaluate autoencoder
+[2017-09-30 01:16:33,739 summary.py:89]: Summary name enc0_921/kernel:0 is illegal; using enc0_921/kernel_0 instead.
+[2017-09-30 01:16:33,739 summary.py:89]: Summary name enc0_921/bias:0 is illegal; using enc0_921/bias_0 instead.
+[2017-09-30 01:16:33,739 summary.py:89]: Summary name dec0_9216/kernel:0 is illegal; using dec0_9216/kernel_0 instead.
+[2017-09-30 01:16:33,739 summary.py:89]: Summary name dec0_9216/bias:0 is illegal; using dec0_9216/bias_0 instead.
+[2017-09-30 01:17:25,182 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:95]: trained and evaluated!
+[2017-09-30 01:17:25,182 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:98]: Training history: 
+{'val_loss': [0.00010895927227946122, 0.00010895672501809202, 0.00010895414483910046, 0.00010895153306784683, 0.00010894888808144097, 0.00010894620438910446, 0.00010894351003978913], 'loss': [0.00010924859935396734, 0.00010924602050326202, 0.00010924341899736229, 0.00010924077789630047, 0.00010923811514624615, 0.00010923542445508354, 0.00010923270978501207]}
+[2017-09-30 01:17:25,182 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:102]: done!
+[2017-09-30 01:17:25,182 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:162]: >> Executing classifier part ... 
+[2017-09-30 01:17:25,182 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:107]: =======================================
+[2017-09-30 01:17:25,182 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:111]: setting configurations for classifier: 
+	 {'use_last_dim_as_classifier': False, 'classifier_dim': 9, 'activation': 'sigmoid', 'optimizer': <keras.optimizers.SGD object at 0x000002926EF274E0>, 'loss_function': 'categorical_crossentropy'}
+[2017-09-30 01:17:25,229 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:120]: training ... 
+[2017-09-30 01:17:25,557 summary.py:89]: Summary name enc0_921/kernel:0 is illegal; using enc0_921/kernel_0 instead.
+[2017-09-30 01:17:25,557 summary.py:89]: Summary name enc0_921/bias:0 is illegal; using enc0_921/bias_0 instead.
+[2017-09-30 01:17:25,573 summary.py:89]: Summary name classifier/kernel:0 is illegal; using classifier/kernel_0 instead.
+[2017-09-30 01:17:25,573 summary.py:89]: Summary name classifier/bias:0 is illegal; using classifier/bias_0 instead.
+[2017-09-30 01:18:30,639 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:155]: >> Initializing execution of experiment AE_BIGRAMA_1L_UNDER_F0_1_ALT
+[2017-09-30 01:18:30,639 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:156]: >> Printing header log
+[2017-09-30 01:18:30,639 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:47]: 
+	=======================================
+	network_name = AE_BIGRAMA_1L_UNDER_F0_1_ALT
+	layers = 9216,921
+	using GLOBAL obj = 
+		{'data_target_list': [1, 2, 3, 4, 5, 6, 7, 8, 9], 'executed_dir': 'c:/users/dhieg/research/research_msc/executed/onelayer/bigram/', 'store_history': True, 'reports_dir': 'c:/users/dhieg/research/research_msc/reports/onelayer/bigram/', 'tensorflow_dir': 'c:/users/dhieg/research/research_msc/tensorflow/onelayer/bigram/', 'data_dir': 'c:/users/dhieg/research/malware_dataset/malware_selected_2gram_mini.pkl', 'log_dir': 'c:/users/dhieg/research/research_msc/logs/onelayer/bigram/', 'log_format': '[%(asctime)s %(filename)s:%(lineno)s]: %(message)s', 'mlp_configs': {'classifier_dim': 9, 'use_last_dim_as_classifier': False, 'optimizer': <keras.optimizers.SGD object at 0x0000024CD6BDE978>, 'activation': 'sigmoid', 'loss_function': 'categorical_crossentropy'}, 'numpy_seed': 666, 'batch': 32, 'epochs': 200, 'shuffle_batches': True, 'autoencoder_configs': {'hidden_layer_activation': 'relu', 'output_layer_activation': 'relu', 'optimizer': <keras.optimizers.SGD object at 0x0000024CD6BCB550>, 'loss_function': 'mse', 'discard_decoder_function': True}, 'checkpoints_dir': 'c:/users/dhieg/research/research_msc/checkpoints/onelayer/bigram/'}
+	=======================================
+	
+[2017-09-30 01:18:30,639 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:158]: >> Loading dataset... 
+[2017-09-30 01:18:30,984 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:63]: 
+	=======================================
+	loading malware dataset on = c:/users/dhieg/research/malware_dataset/malware_selected_2gram_mini.pkl	
+	trainx shape = (1627, 9216)
+	trainy shape = (1627, 9)
+	valx shape = (1076, 9216)
+	valy shape = (1076, 9)
+	=======================================
+	
+[2017-09-30 01:18:30,984 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:160]: >> Executing autoencoder part ... 
+[2017-09-30 01:18:30,984 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:68]: =======================================
+[2017-09-30 01:18:30,984 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:73]: setting configurations for autoencoder: 
+	 {'hidden_layer_activation': 'relu', 'output_layer_activation': 'relu', 'optimizer': <keras.optimizers.SGD object at 0x0000024CD6BCB550>, 'loss_function': 'mse', 'discard_decoder_function': True}
+[2017-09-30 01:18:31,031 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:84]: training and evaluate autoencoder
+[2017-09-30 01:18:32,720 summary.py:89]: Summary name enc0_921/kernel:0 is illegal; using enc0_921/kernel_0 instead.
+[2017-09-30 01:18:32,723 summary.py:89]: Summary name enc0_921/bias:0 is illegal; using enc0_921/bias_0 instead.
+[2017-09-30 01:18:32,726 summary.py:89]: Summary name dec0_9216/kernel:0 is illegal; using dec0_9216/kernel_0 instead.
+[2017-09-30 01:18:32,728 summary.py:89]: Summary name dec0_9216/bias:0 is illegal; using dec0_9216/bias_0 instead.
+[2017-09-30 01:24:50,119 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:95]: trained and evaluated!
+[2017-09-30 01:24:50,119 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:98]: Training history: 
+{'loss': [0.00010911243943097992, 0.00010911035090468803, 0.00010910825389052427, 0.00010910614602726821, 0.0001091040200792103, 0.00010910188377398102, 0.00010909973291683651, 0.00010909757812432463, 0.00010909541854676381, 0.00010909325296776775, 0.00010909107783656182, 0.00010908889392680347, 0.00010908670235202278, 0.00010908450521853568, 0.00010908229276394791, 0.0001090800601361304, 0.00010907780461163004, 0.00010907554523673049, 0.00010907327037973796, 0.00010907097479051464, 0.0001090686616084104, 0.00010906633574369042, 0.00010906399767933163, 0.00010906165296956839, 0.00010905929531781294, 0.00010905692576157122, 0.00010905454550381348, 0.00010905215737532101, 0.00010904975833960012, 0.00010904735097252765, 0.00010904492441606728, 0.00010904248942092712, 0.0001090400433933423, 0.00010903758079249448, 0.00010903510224446482, 0.00010903261438571374, 0.00010903010781607965, 0.00010902757222311126, 0.0001090250060237176, 0.00010902243235606996, 0.00010901984166795847, 0.00010901721997094096, 0.00010901458395008066, 0.00010901192971473027, 0.00010900926521612067, 0.00010900658117930651, 0.00010900388571651098, 0.00010900117927940692, 0.00010899845921162134, 0.00010899571769608364, 0.00010899296572051837, 0.00010899018474845084], 'val_loss': [0.00010883310774244285, 0.00010883102660217984, 0.00010882894497504977, 0.00010882684803865573, 0.00010882474260913644, 0.00010882262938974432, 0.00010882050313313447, 0.00010881836302786179, 0.00010881620501670086, 0.00010881402899145901, 0.00010881184322887609, 0.00010880964881087892, 0.00010880745374372569, 0.00010880524563935471, 0.00010880301884469857, 0.00010880077525312912, 0.00010879851862434194, 0.00010879625325899599, 0.00010879397023119531, 0.00010879167032533682, 0.0001087893558675631, 0.00010878703310600133, 0.00010878470631426228, 0.00010878237700704347, 0.00010878002679158958, 0.00010877766624373491, 0.000108775294011071, 0.00010877289986938972, 0.00010877049855994351, 0.00010876808992044335, 0.00010876566583643837, 0.00010876323642394398, 0.00010876078826706808, 0.00010875832179858138, 0.00010875584204944342, 0.00010875335034501451, 0.00010875083224157211, 0.00010874828522363643, 0.00010874571621553889, 0.00010874313530624674, 0.00010874052188505478, 0.00010873789669790904, 0.000108735259339087, 0.00010873260358750966, 0.00010872992368191688, 0.00010872722162387323, 0.00010872449976656946, 0.00010872175965175123, 0.00010871900087369599, 0.00010871622629950972, 0.00010871344380020977, 0.00010871063760671328]}
+[2017-09-30 01:24:50,119 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:102]: done!
+[2017-09-30 01:24:50,119 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:162]: >> Executing classifier part ... 
+[2017-09-30 01:24:50,119 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:107]: =======================================
+[2017-09-30 01:24:50,119 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:111]: setting configurations for classifier: 
+	 {'classifier_dim': 9, 'use_last_dim_as_classifier': False, 'optimizer': <keras.optimizers.SGD object at 0x0000024CD6BDE978>, 'activation': 'sigmoid', 'loss_function': 'categorical_crossentropy'}
+[2017-09-30 01:24:50,166 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:120]: training ... 
+[2017-09-30 01:24:50,499 summary.py:89]: Summary name enc0_921/kernel:0 is illegal; using enc0_921/kernel_0 instead.
+[2017-09-30 01:24:50,514 summary.py:89]: Summary name enc0_921/bias:0 is illegal; using enc0_921/bias_0 instead.
+[2017-09-30 01:24:50,514 summary.py:89]: Summary name classifier/kernel:0 is illegal; using classifier/kernel_0 instead.
+[2017-09-30 01:24:50,514 summary.py:89]: Summary name classifier/bias:0 is illegal; using classifier/bias_0 instead.
+[2017-09-30 01:39:41,464 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:132]: trained!
+[2017-09-30 01:39:41,464 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:135]: Training history: 
+{'loss': [0.00010911243943097992, 0.00010911035090468803, 0.00010910825389052427, 0.00010910614602726821, 0.0001091040200792103, 0.00010910188377398102, 0.00010909973291683651, 0.00010909757812432463, 0.00010909541854676381, 0.00010909325296776775, 0.00010909107783656182, 0.00010908889392680347, 0.00010908670235202278, 0.00010908450521853568, 0.00010908229276394791, 0.0001090800601361304, 0.00010907780461163004, 0.00010907554523673049, 0.00010907327037973796, 0.00010907097479051464, 0.0001090686616084104, 0.00010906633574369042, 0.00010906399767933163, 0.00010906165296956839, 0.00010905929531781294, 0.00010905692576157122, 0.00010905454550381348, 0.00010905215737532101, 0.00010904975833960012, 0.00010904735097252765, 0.00010904492441606728, 0.00010904248942092712, 0.0001090400433933423, 0.00010903758079249448, 0.00010903510224446482, 0.00010903261438571374, 0.00010903010781607965, 0.00010902757222311126, 0.0001090250060237176, 0.00010902243235606996, 0.00010901984166795847, 0.00010901721997094096, 0.00010901458395008066, 0.00010901192971473027, 0.00010900926521612067, 0.00010900658117930651, 0.00010900388571651098, 0.00010900117927940692, 0.00010899845921162134, 0.00010899571769608364, 0.00010899296572051837, 0.00010899018474845084], 'val_loss': [0.00010883310774244285, 0.00010883102660217984, 0.00010882894497504977, 0.00010882684803865573, 0.00010882474260913644, 0.00010882262938974432, 0.00010882050313313447, 0.00010881836302786179, 0.00010881620501670086, 0.00010881402899145901, 0.00010881184322887609, 0.00010880964881087892, 0.00010880745374372569, 0.00010880524563935471, 0.00010880301884469857, 0.00010880077525312912, 0.00010879851862434194, 0.00010879625325899599, 0.00010879397023119531, 0.00010879167032533682, 0.0001087893558675631, 0.00010878703310600133, 0.00010878470631426228, 0.00010878237700704347, 0.00010878002679158958, 0.00010877766624373491, 0.000108775294011071, 0.00010877289986938972, 0.00010877049855994351, 0.00010876808992044335, 0.00010876566583643837, 0.00010876323642394398, 0.00010876078826706808, 0.00010875832179858138, 0.00010875584204944342, 0.00010875335034501451, 0.00010875083224157211, 0.00010874828522363643, 0.00010874571621553889, 0.00010874313530624674, 0.00010874052188505478, 0.00010873789669790904, 0.000108735259339087, 0.00010873260358750966, 0.00010872992368191688, 0.00010872722162387323, 0.00010872449976656946, 0.00010872175965175123, 0.00010871900087369599, 0.00010871622629950972, 0.00010871344380020977, 0.00010871063760671328]}
+[2017-09-30 01:39:41,464 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:139]: evaluating model ... 
+[2017-09-30 01:39:41,730 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:143]: evaluated! 
+[2017-09-30 01:39:41,730 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:145]: generating reports ... 
+[2017-09-30 01:39:42,245 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:148]: done!
+[2017-09-30 01:39:42,245 AE_BIGRAMA_1L_UNDER_F0_1_ALT.py:164]: >> experiment AE_BIGRAMA_1L_UNDER_F0_1_ALT finished!
