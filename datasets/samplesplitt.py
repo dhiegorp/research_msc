@@ -122,9 +122,9 @@ def main():
 
 
 	process_list = [
-		('C:/Users/dhieg/research/malware_dataset/malware_selected_1gram.pkl', 'C:/Users/dhieg/research/malware_dataset/malware_selected_1gram_mini.pkl'),
-		('C:/Users/dhieg/research/malware_dataset/malware_selected_2gram.pkl', 'C:/Users/dhieg/research/malware_dataset/malware_selected_2gram_mini.pkl'),
-		('C:/Users/dhieg/research/malware_dataset/malware_selected_3gram.pkl', 'C:/Users/dhieg/research/malware_dataset/malware_selected_3gram_mini.pkl')
+		('e:/research/malware_dataset/malware_selected_1gram.pkl', 'e:/research/malware_dataset/malware_selected_1gram_mini.pkl'),
+		('e:/research/malware_dataset/malware_selected_2gram.pkl', 'e:/research/malware_dataset/malware_selected_2gram_mini.pkl'),
+		('e:/research/malware_dataset/malware_selected_3gram.pkl', 'e:/research/malware_dataset/malware_selected_3gram_mini.pkl')
 	]	
 
 	TOTAL_SLICE = 0.25

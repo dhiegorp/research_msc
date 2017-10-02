@@ -94,3 +94,571 @@
 [2017-09-18 13:33:28,316 (line 36)]: 1 item(s) found for search_term AE_BIGRA*F1_0.py
 [2017-09-18 13:33:28,318 (line 39)]: Registering AE_BIGRAMA_1L_OVER_F1_0.py for parallel execution.
 [2017-09-18 13:33:28,318 (line 48)]: Opening process for AE_BIGRAMA_1L_OVER_F1_0.py
+[2017-10-02 08:56:46,724 (line 25)]: sys.argv: ['process_launcher.py']
+[2017-10-02 08:56:46,724 (line 30)]: Starting process launcher with search term 'AE_*.py'
+[2017-10-02 08:56:46,725 (line 37)]: 2 item(s) found for search_term AE_*.py
+[2017-10-02 08:56:46,727 (line 40)]: Registering AE_BIGRAMA_1L_OVER_F1_0.py for parallel execution.
+[2017-10-02 08:56:46,727 (line 40)]: Registering AE_BIGRAMA_1L_OVER_F1_1.py for parallel execution.
+[2017-10-02 08:56:46,728 (line 40)]: Registering AE_BIGRAMA_1L_OVER_F1_2.py for parallel execution.
+[2017-10-02 08:56:46,728 (line 40)]: Registering AE_BIGRAMA_1L_OVER_F1_3.py for parallel execution.
+[2017-10-02 08:56:46,729 (line 40)]: Registering AE_BIGRAMA_1L_OVER_F1_4.py for parallel execution.
+[2017-10-02 08:56:46,730 (line 40)]: Registering AE_BIGRAMA_1L_OVER_F1_5.py for parallel execution.
+[2017-10-02 08:56:46,730 (line 40)]: Registering AE_BIGRAMA_1L_OVER_F1_6.py for parallel execution.
+[2017-10-02 08:56:46,731 (line 40)]: Registering AE_BIGRAMA_1L_OVER_F1_7.py for parallel execution.
+[2017-10-02 08:56:46,731 (line 40)]: Registering AE_BIGRAMA_1L_OVER_F1_8.py for parallel execution.
+[2017-10-02 08:56:46,732 (line 40)]: Registering AE_BIGRAMA_1L_OVER_F1_9.py for parallel execution.
+[2017-10-02 08:56:46,732 (line 40)]: Registering AE_BIGRAMA_1L_OVER_F2_0.py for parallel execution.
+[2017-10-02 08:56:46,733 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_1.py for parallel execution.
+[2017-10-02 08:56:46,734 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_1_ALT.py for parallel execution.
+[2017-10-02 08:56:46,734 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_2.py for parallel execution.
+[2017-10-02 08:56:46,735 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_3.py for parallel execution.
+[2017-10-02 08:56:46,735 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_4.py for parallel execution.
+[2017-10-02 08:56:46,736 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_5.py for parallel execution.
+[2017-10-02 08:56:46,736 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_6.py for parallel execution.
+[2017-10-02 08:56:46,737 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_7.py for parallel execution.
+[2017-10-02 08:56:46,737 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_8.py for parallel execution.
+[2017-10-02 08:56:46,738 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_9.py for parallel execution.
+[2017-10-02 08:56:46,739 (line 40)]: Registering AE_TRIGRAMA_1L_OVER_F1_0.py for parallel execution.
+[2017-10-02 08:56:46,739 (line 40)]: Registering AE_TRIGRAMA_1L_OVER_F1_1.py for parallel execution.
+[2017-10-02 08:56:46,740 (line 40)]: Registering AE_TRIGRAMA_1L_OVER_F1_2.py for parallel execution.
+[2017-10-02 08:56:46,740 (line 40)]: Registering AE_TRIGRAMA_1L_OVER_F1_3.py for parallel execution.
+[2017-10-02 08:56:46,741 (line 40)]: Registering AE_TRIGRAMA_1L_OVER_F1_4.py for parallel execution.
+[2017-10-02 08:56:46,741 (line 40)]: Registering AE_TRIGRAMA_1L_OVER_F1_5.py for parallel execution.
+[2017-10-02 08:56:46,742 (line 40)]: Registering AE_TRIGRAMA_1L_OVER_F1_6.py for parallel execution.
+[2017-10-02 08:56:46,742 (line 40)]: Registering AE_TRIGRAMA_1L_OVER_F1_7.py for parallel execution.
+[2017-10-02 08:56:46,743 (line 40)]: Registering AE_TRIGRAMA_1L_OVER_F1_8.py for parallel execution.
+[2017-10-02 08:56:46,744 (line 40)]: Registering AE_TRIGRAMA_1L_OVER_F1_9.py for parallel execution.
+[2017-10-02 08:56:46,744 (line 40)]: Registering AE_TRIGRAMA_1L_OVER_F2_0.py for parallel execution.
+[2017-10-02 08:56:46,745 (line 40)]: Registering AE_TRIGRAMA_1L_UNDER_F0_1.py for parallel execution.
+[2017-10-02 08:56:46,745 (line 40)]: Registering AE_TRIGRAMA_1L_UNDER_F0_2.py for parallel execution.
+[2017-10-02 08:56:46,746 (line 40)]: Registering AE_TRIGRAMA_1L_UNDER_F0_3.py for parallel execution.
+[2017-10-02 08:56:46,746 (line 40)]: Registering AE_TRIGRAMA_1L_UNDER_F0_4.py for parallel execution.
+[2017-10-02 08:56:46,747 (line 40)]: Registering AE_TRIGRAMA_1L_UNDER_F0_5.py for parallel execution.
+[2017-10-02 08:56:46,747 (line 40)]: Registering AE_TRIGRAMA_1L_UNDER_F0_6.py for parallel execution.
+[2017-10-02 08:56:46,748 (line 40)]: Registering AE_TRIGRAMA_1L_UNDER_F0_7.py for parallel execution.
+[2017-10-02 08:56:46,748 (line 40)]: Registering AE_TRIGRAMA_1L_UNDER_F0_8.py for parallel execution.
+[2017-10-02 08:56:46,749 (line 40)]: Registering AE_TRIGRAMA_1L_UNDER_F0_9.py for parallel execution.
+[2017-10-02 08:56:46,749 (line 40)]: Registering AE_UNIGRAMA_1L_OVER_F1_0.py for parallel execution.
+[2017-10-02 08:56:46,750 (line 40)]: Registering AE_UNIGRAMA_1L_OVER_F1_1.py for parallel execution.
+[2017-10-02 08:56:46,750 (line 40)]: Registering AE_UNIGRAMA_1L_OVER_F1_2.py for parallel execution.
+[2017-10-02 08:56:46,751 (line 40)]: Registering AE_UNIGRAMA_1L_OVER_F1_3.py for parallel execution.
+[2017-10-02 08:56:46,751 (line 40)]: Registering AE_UNIGRAMA_1L_OVER_F1_4.py for parallel execution.
+[2017-10-02 08:56:46,751 (line 40)]: Registering AE_UNIGRAMA_1L_OVER_F1_5.py for parallel execution.
+[2017-10-02 08:56:46,752 (line 40)]: Registering AE_UNIGRAMA_1L_OVER_F1_6.py for parallel execution.
+[2017-10-02 08:56:46,752 (line 40)]: Registering AE_UNIGRAMA_1L_OVER_F1_7.py for parallel execution.
+[2017-10-02 08:56:46,753 (line 40)]: Registering AE_UNIGRAMA_1L_OVER_F1_8.py for parallel execution.
+[2017-10-02 08:56:46,753 (line 40)]: Registering AE_UNIGRAMA_1L_OVER_F1_9.py for parallel execution.
+[2017-10-02 08:56:46,753 (line 40)]: Registering AE_UNIGRAMA_1L_OVER_F2_0.py for parallel execution.
+[2017-10-02 08:56:46,754 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_1.py for parallel execution.
+[2017-10-02 08:56:46,754 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_2.py for parallel execution.
+[2017-10-02 08:56:46,755 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_3.py for parallel execution.
+[2017-10-02 08:56:46,755 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_4.py for parallel execution.
+[2017-10-02 08:56:46,755 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_5.py for parallel execution.
+[2017-10-02 08:56:46,756 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_6.py for parallel execution.
+[2017-10-02 08:56:46,756 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_7.py for parallel execution.
+[2017-10-02 08:56:46,757 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_8.py for parallel execution.
+[2017-10-02 08:56:46,757 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_9.py for parallel execution.
+[2017-10-02 08:56:46,757 (line 49)]: Opening process for AE_BIGRAMA_1L_OVER_F1_0.py
+[2017-10-02 08:56:46,770 (line 49)]: Opening process for AE_BIGRAMA_1L_OVER_F1_1.py
+[2017-10-02 08:56:46,781 (line 49)]: Opening process for AE_BIGRAMA_1L_OVER_F1_2.py
+[2017-10-02 08:56:46,793 (line 49)]: Opening process for AE_BIGRAMA_1L_OVER_F1_3.py
+[2017-10-02 08:56:46,805 (line 49)]: Opening process for AE_BIGRAMA_1L_OVER_F1_4.py
+[2017-10-02 08:56:46,817 (line 49)]: Opening process for AE_BIGRAMA_1L_OVER_F1_5.py
+[2017-10-02 08:56:46,829 (line 49)]: Opening process for AE_BIGRAMA_1L_OVER_F1_6.py
+[2017-10-02 08:56:46,841 (line 49)]: Opening process for AE_BIGRAMA_1L_OVER_F1_7.py
+[2017-10-02 08:56:46,853 (line 49)]: Opening process for AE_BIGRAMA_1L_OVER_F1_8.py
+[2017-10-02 08:56:46,865 (line 49)]: Opening process for AE_BIGRAMA_1L_OVER_F1_9.py
+[2017-10-02 08:56:46,878 (line 49)]: Opening process for AE_BIGRAMA_1L_OVER_F2_0.py
+[2017-10-02 08:56:46,890 (line 49)]: Opening process for AE_BIGRAMA_1L_UNDER_F0_1.py
+[2017-10-02 08:56:46,905 (line 49)]: Opening process for AE_BIGRAMA_1L_UNDER_F0_1_ALT.py
+[2017-10-02 08:56:46,919 (line 49)]: Opening process for AE_BIGRAMA_1L_UNDER_F0_2.py
+[2017-10-02 08:56:46,952 (line 49)]: Opening process for AE_BIGRAMA_1L_UNDER_F0_3.py
+[2017-10-02 08:56:46,986 (line 49)]: Opening process for AE_BIGRAMA_1L_UNDER_F0_4.py
+[2017-10-02 08:56:47,039 (line 49)]: Opening process for AE_BIGRAMA_1L_UNDER_F0_5.py
+[2017-10-02 08:56:47,052 (line 49)]: Opening process for AE_BIGRAMA_1L_UNDER_F0_6.py
+[2017-10-02 08:56:47,065 (line 49)]: Opening process for AE_BIGRAMA_1L_UNDER_F0_7.py
+[2017-10-02 08:56:47,099 (line 49)]: Opening process for AE_BIGRAMA_1L_UNDER_F0_8.py
+[2017-10-02 08:56:47,134 (line 49)]: Opening process for AE_BIGRAMA_1L_UNDER_F0_9.py
+[2017-10-02 08:56:47,148 (line 49)]: Opening process for AE_TRIGRAMA_1L_OVER_F1_0.py
+[2017-10-02 08:56:47,182 (line 49)]: Opening process for AE_TRIGRAMA_1L_OVER_F1_1.py
+[2017-10-02 08:56:47,195 (line 49)]: Opening process for AE_TRIGRAMA_1L_OVER_F1_2.py
+[2017-10-02 08:56:47,210 (line 49)]: Opening process for AE_TRIGRAMA_1L_OVER_F1_3.py
+[2017-10-02 08:56:47,224 (line 49)]: Opening process for AE_TRIGRAMA_1L_OVER_F1_4.py
+[2017-10-02 08:56:47,278 (line 49)]: Opening process for AE_TRIGRAMA_1L_OVER_F1_5.py
+[2017-10-02 08:56:47,350 (line 49)]: Opening process for AE_TRIGRAMA_1L_OVER_F1_6.py
+[2017-10-02 08:56:47,365 (line 49)]: Opening process for AE_TRIGRAMA_1L_OVER_F1_7.py
+[2017-10-02 08:56:47,398 (line 49)]: Opening process for AE_TRIGRAMA_1L_OVER_F1_8.py
+[2017-10-02 08:56:47,434 (line 49)]: Opening process for AE_TRIGRAMA_1L_OVER_F1_9.py
+[2017-10-02 08:56:47,471 (line 49)]: Opening process for AE_TRIGRAMA_1L_OVER_F2_0.py
+[2017-10-02 08:56:47,505 (line 49)]: Opening process for AE_TRIGRAMA_1L_UNDER_F0_1.py
+[2017-10-02 08:56:47,520 (line 49)]: Opening process for AE_TRIGRAMA_1L_UNDER_F0_2.py
+[2017-10-02 08:56:47,552 (line 49)]: Opening process for AE_TRIGRAMA_1L_UNDER_F0_3.py
+[2017-10-02 08:56:47,567 (line 49)]: Opening process for AE_TRIGRAMA_1L_UNDER_F0_4.py
+[2017-10-02 08:56:47,642 (line 49)]: Opening process for AE_TRIGRAMA_1L_UNDER_F0_5.py
+[2017-10-02 08:56:47,676 (line 49)]: Opening process for AE_TRIGRAMA_1L_UNDER_F0_6.py
+[2017-10-02 08:56:47,710 (line 49)]: Opening process for AE_TRIGRAMA_1L_UNDER_F0_7.py
+[2017-10-02 08:56:47,746 (line 49)]: Opening process for AE_TRIGRAMA_1L_UNDER_F0_8.py
+[2017-10-02 08:56:47,761 (line 49)]: Opening process for AE_TRIGRAMA_1L_UNDER_F0_9.py
+[2017-10-02 08:56:47,837 (line 49)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_0.py
+[2017-10-02 08:56:47,872 (line 49)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_1.py
+[2017-10-02 08:56:47,927 (line 49)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_2.py
+[2017-10-02 08:56:48,001 (line 49)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_3.py
+[2017-10-02 08:56:48,018 (line 49)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_4.py
+[2017-10-02 08:56:48,073 (line 49)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_5.py
+[2017-10-02 08:56:48,087 (line 49)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_6.py
+[2017-10-02 08:56:48,103 (line 49)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_7.py
+[2017-10-02 08:56:48,120 (line 49)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_8.py
+[2017-10-02 08:56:48,136 (line 49)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_9.py
+[2017-10-02 08:56:48,194 (line 49)]: Opening process for AE_UNIGRAMA_1L_OVER_F2_0.py
+[2017-10-02 08:56:48,351 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_1.py
+[2017-10-02 08:56:48,368 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_2.py
+[2017-10-02 08:56:48,406 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_3.py
+[2017-10-02 08:56:48,503 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_4.py
+[2017-10-02 08:56:48,539 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_5.py
+[2017-10-02 08:56:48,557 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_6.py
+[2017-10-02 08:56:48,575 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_7.py
+[2017-10-02 08:56:48,595 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_8.py
+[2017-10-02 08:56:48,613 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_9.py
+[2017-10-02 08:57:47,483 (line 25)]: sys.argv: ['process_launcher.py']
+[2017-10-02 08:57:47,484 (line 30)]: Starting process launcher with search term 'p*.py'
+[2017-10-02 08:57:47,484 (line 37)]: 2 item(s) found for search_term p*.py
+[2017-10-02 08:57:47,485 (line 40)]: Registering p1.py for parallel execution.
+[2017-10-02 08:57:47,486 (line 40)]: Registering p2.py for parallel execution.
+[2017-10-02 08:57:47,486 (line 40)]: Registering process_launcher.py for parallel execution.
+[2017-10-02 08:57:47,486 (line 49)]: Opening process for p1.py
+[2017-10-02 08:57:47,499 (line 49)]: Opening process for p2.py
+[2017-10-02 08:57:47,509 (line 49)]: Opening process for process_launcher.py
+[2017-10-02 08:57:47,725 (line 25)]: sys.argv: ['process_launcher.py']
+[2017-10-02 08:57:47,725 (line 30)]: Starting process launcher with search term 'p*.py'
+[2017-10-02 08:57:47,725 (line 37)]: 2 item(s) found for search_term p*.py
+[2017-10-02 08:57:47,727 (line 40)]: Registering p1.py for parallel execution.
+[2017-10-02 08:57:47,727 (line 40)]: Registering p2.py for parallel execution.
+[2017-10-02 08:57:47,727 (line 40)]: Registering process_launcher.py for parallel execution.
+[2017-10-02 08:57:47,728 (line 49)]: Opening process for p1.py
+[2017-10-02 08:57:47,739 (line 49)]: Opening process for p2.py
+[2017-10-02 08:57:47,750 (line 49)]: Opening process for process_launcher.py
+[2017-10-02 08:57:47,914 (line 25)]: sys.argv: ['process_launcher.py']
+[2017-10-02 08:57:47,915 (line 30)]: Starting process launcher with search term 'p*.py'
+[2017-10-02 08:57:47,915 (line 37)]: 2 item(s) found for search_term p*.py
+[2017-10-02 08:57:47,917 (line 40)]: Registering p1.py for parallel execution.
+[2017-10-02 08:57:47,917 (line 40)]: Registering p2.py for parallel execution.
+[2017-10-02 08:57:47,917 (line 40)]: Registering process_launcher.py for parallel execution.
+[2017-10-02 08:57:47,918 (line 49)]: Opening process for p1.py
+[2017-10-02 08:57:47,929 (line 49)]: Opening process for p2.py
+[2017-10-02 08:57:47,939 (line 49)]: Opening process for process_launcher.py
+[2017-10-02 08:57:48,119 (line 25)]: sys.argv: ['process_launcher.py']
+[2017-10-02 08:57:48,120 (line 30)]: Starting process launcher with search term 'p*.py'
+[2017-10-02 08:57:48,120 (line 37)]: 2 item(s) found for search_term p*.py
+[2017-10-02 08:57:48,122 (line 40)]: Registering p1.py for parallel execution.
+[2017-10-02 08:57:48,122 (line 40)]: Registering p2.py for parallel execution.
+[2017-10-02 08:57:48,122 (line 40)]: Registering process_launcher.py for parallel execution.
+[2017-10-02 08:57:48,123 (line 49)]: Opening process for p1.py
+[2017-10-02 08:57:48,135 (line 49)]: Opening process for p2.py
+[2017-10-02 08:57:48,145 (line 49)]: Opening process for process_launcher.py
+[2017-10-02 08:57:48,310 (line 25)]: sys.argv: ['process_launcher.py']
+[2017-10-02 08:57:48,311 (line 30)]: Starting process launcher with search term 'p*.py'
+[2017-10-02 08:57:48,311 (line 37)]: 2 item(s) found for search_term p*.py
+[2017-10-02 08:57:48,312 (line 40)]: Registering p1.py for parallel execution.
+[2017-10-02 08:57:48,313 (line 40)]: Registering p2.py for parallel execution.
+[2017-10-02 08:57:48,313 (line 40)]: Registering process_launcher.py for parallel execution.
+[2017-10-02 08:57:48,313 (line 49)]: Opening process for p1.py
+[2017-10-02 08:57:48,325 (line 49)]: Opening process for p2.py
+[2017-10-02 08:57:48,335 (line 49)]: Opening process for process_launcher.py
+[2017-10-02 08:57:48,504 (line 25)]: sys.argv: ['process_launcher.py']
+[2017-10-02 08:57:48,505 (line 30)]: Starting process launcher with search term 'p*.py'
+[2017-10-02 08:57:48,505 (line 37)]: 2 item(s) found for search_term p*.py
+[2017-10-02 08:57:48,507 (line 40)]: Registering p1.py for parallel execution.
+[2017-10-02 08:57:48,507 (line 40)]: Registering p2.py for parallel execution.
+[2017-10-02 08:57:48,507 (line 40)]: Registering process_launcher.py for parallel execution.
+[2017-10-02 08:57:48,508 (line 49)]: Opening process for p1.py
+[2017-10-02 08:57:48,520 (line 49)]: Opening process for p2.py
+[2017-10-02 08:57:48,530 (line 49)]: Opening process for process_launcher.py
+[2017-10-02 08:57:48,678 (line 25)]: sys.argv: ['process_launcher.py']
+[2017-10-02 08:57:48,678 (line 30)]: Starting process launcher with search term 'p*.py'
+[2017-10-02 08:57:48,678 (line 37)]: 2 item(s) found for search_term p*.py
+[2017-10-02 08:57:48,680 (line 40)]: Registering p1.py for parallel execution.
+[2017-10-02 08:57:48,680 (line 40)]: Registering p2.py for parallel execution.
+[2017-10-02 08:57:48,680 (line 40)]: Registering process_launcher.py for parallel execution.
+[2017-10-02 08:57:48,681 (line 49)]: Opening process for p1.py
+[2017-10-02 08:57:48,693 (line 49)]: Opening process for p2.py
+[2017-10-02 08:57:48,703 (line 49)]: Opening process for process_launcher.py
+[2017-10-02 08:57:48,905 (line 25)]: sys.argv: ['process_launcher.py']
+[2017-10-02 08:57:48,906 (line 30)]: Starting process launcher with search term 'p*.py'
+[2017-10-02 08:57:48,906 (line 37)]: 2 item(s) found for search_term p*.py
+[2017-10-02 08:57:48,908 (line 40)]: Registering p1.py for parallel execution.
+[2017-10-02 08:57:48,908 (line 40)]: Registering p2.py for parallel execution.
+[2017-10-02 08:57:48,909 (line 40)]: Registering process_launcher.py for parallel execution.
+[2017-10-02 08:57:48,909 (line 49)]: Opening process for p1.py
+[2017-10-02 08:57:48,922 (line 49)]: Opening process for p2.py
+[2017-10-02 08:57:48,952 (line 49)]: Opening process for process_launcher.py
+[2017-10-02 08:57:49,153 (line 25)]: sys.argv: ['process_launcher.py']
+[2017-10-02 08:57:49,154 (line 30)]: Starting process launcher with search term 'p*.py'
+[2017-10-02 08:57:49,154 (line 37)]: 2 item(s) found for search_term p*.py
+[2017-10-02 08:57:49,155 (line 40)]: Registering p1.py for parallel execution.
+[2017-10-02 08:57:49,156 (line 40)]: Registering p2.py for parallel execution.
+[2017-10-02 08:57:49,156 (line 40)]: Registering process_launcher.py for parallel execution.
+[2017-10-02 08:57:49,156 (line 49)]: Opening process for p1.py
+[2017-10-02 08:57:49,168 (line 49)]: Opening process for p2.py
+[2017-10-02 08:57:49,179 (line 49)]: Opening process for process_launcher.py
+[2017-10-02 08:57:49,389 (line 25)]: sys.argv: ['process_launcher.py']
+[2017-10-02 08:57:49,389 (line 30)]: Starting process launcher with search term 'p*.py'
+[2017-10-02 08:57:49,390 (line 37)]: 2 item(s) found for search_term p*.py
+[2017-10-02 08:57:49,391 (line 40)]: Registering p1.py for parallel execution.
+[2017-10-02 08:57:49,391 (line 40)]: Registering p2.py for parallel execution.
+[2017-10-02 08:57:49,392 (line 40)]: Registering process_launcher.py for parallel execution.
+[2017-10-02 08:57:49,392 (line 49)]: Opening process for p1.py
+[2017-10-02 08:57:49,404 (line 49)]: Opening process for p2.py
+[2017-10-02 08:57:49,415 (line 49)]: Opening process for process_launcher.py
+[2017-10-02 08:57:49,599 (line 25)]: sys.argv: ['process_launcher.py']
+[2017-10-02 08:57:49,599 (line 30)]: Starting process launcher with search term 'p*.py'
+[2017-10-02 08:57:49,600 (line 37)]: 2 item(s) found for search_term p*.py
+[2017-10-02 08:57:49,601 (line 40)]: Registering p1.py for parallel execution.
+[2017-10-02 08:57:49,601 (line 40)]: Registering p2.py for parallel execution.
+[2017-10-02 08:57:49,602 (line 40)]: Registering process_launcher.py for parallel execution.
+[2017-10-02 08:57:49,602 (line 49)]: Opening process for p1.py
+[2017-10-02 08:57:49,613 (line 49)]: Opening process for p2.py
+[2017-10-02 08:57:49,623 (line 49)]: Opening process for process_launcher.py
+[2017-10-02 08:57:49,800 (line 25)]: sys.argv: ['process_launcher.py']
+[2017-10-02 08:57:49,801 (line 30)]: Starting process launcher with search term 'p*.py'
+[2017-10-02 08:57:49,801 (line 37)]: 2 item(s) found for search_term p*.py
+[2017-10-02 08:57:49,805 (line 40)]: Registering p1.py for parallel execution.
+[2017-10-02 08:57:49,805 (line 40)]: Registering p2.py for parallel execution.
+[2017-10-02 08:57:49,806 (line 40)]: Registering process_launcher.py for parallel execution.
+[2017-10-02 08:57:49,807 (line 49)]: Opening process for p1.py
+[2017-10-02 08:57:49,823 (line 49)]: Opening process for p2.py
+[2017-10-02 08:57:49,836 (line 49)]: Opening process for process_launcher.py
+[2017-10-02 08:57:50,024 (line 25)]: sys.argv: ['process_launcher.py']
+[2017-10-02 08:57:50,024 (line 30)]: Starting process launcher with search term 'p*.py'
+[2017-10-02 08:57:50,025 (line 37)]: 2 item(s) found for search_term p*.py
+[2017-10-02 08:57:50,026 (line 40)]: Registering p1.py for parallel execution.
+[2017-10-02 08:57:50,026 (line 40)]: Registering p2.py for parallel execution.
+[2017-10-02 08:57:50,027 (line 40)]: Registering process_launcher.py for parallel execution.
+[2017-10-02 08:57:50,027 (line 49)]: Opening process for p1.py
+[2017-10-02 08:57:50,038 (line 49)]: Opening process for p2.py
+[2017-10-02 08:57:50,068 (line 49)]: Opening process for process_launcher.py
+[2017-10-02 08:57:50,246 (line 25)]: sys.argv: ['process_launcher.py']
+[2017-10-02 08:57:50,246 (line 30)]: Starting process launcher with search term 'p*.py'
+[2017-10-02 08:57:50,247 (line 37)]: 2 item(s) found for search_term p*.py
+[2017-10-02 08:57:50,249 (line 40)]: Registering p1.py for parallel execution.
+[2017-10-02 08:57:50,249 (line 40)]: Registering p2.py for parallel execution.
+[2017-10-02 08:57:50,250 (line 40)]: Registering process_launcher.py for parallel execution.
+[2017-10-02 08:57:50,250 (line 49)]: Opening process for p1.py
+[2017-10-02 08:57:50,263 (line 49)]: Opening process for p2.py
+[2017-10-02 08:57:50,274 (line 49)]: Opening process for process_launcher.py
+[2017-10-02 08:57:50,458 (line 25)]: sys.argv: ['process_launcher.py']
+[2017-10-02 08:57:50,459 (line 30)]: Starting process launcher with search term 'p*.py'
+[2017-10-02 08:57:50,459 (line 37)]: 2 item(s) found for search_term p*.py
+[2017-10-02 08:57:50,461 (line 40)]: Registering p1.py for parallel execution.
+[2017-10-02 08:57:50,461 (line 40)]: Registering p2.py for parallel execution.
+[2017-10-02 08:57:50,461 (line 40)]: Registering process_launcher.py for parallel execution.
+[2017-10-02 08:57:50,462 (line 49)]: Opening process for p1.py
+[2017-10-02 08:57:50,473 (line 49)]: Opening process for p2.py
+[2017-10-02 08:57:50,484 (line 49)]: Opening process for process_launcher.py
+[2017-10-02 08:57:50,677 (line 25)]: sys.argv: ['process_launcher.py']
+[2017-10-02 08:57:50,678 (line 30)]: Starting process launcher with search term 'p*.py'
+[2017-10-02 08:57:50,678 (line 37)]: 2 item(s) found for search_term p*.py
+[2017-10-02 08:57:50,680 (line 40)]: Registering p1.py for parallel execution.
+[2017-10-02 08:57:50,680 (line 40)]: Registering p2.py for parallel execution.
+[2017-10-02 08:57:50,681 (line 40)]: Registering process_launcher.py for parallel execution.
+[2017-10-02 08:57:50,681 (line 49)]: Opening process for p1.py
+[2017-10-02 08:57:50,697 (line 49)]: Opening process for p2.py
+[2017-10-02 08:57:50,711 (line 49)]: Opening process for process_launcher.py
+[2017-10-02 08:57:50,864 (line 25)]: sys.argv: ['process_launcher.py']
+[2017-10-02 08:57:50,864 (line 30)]: Starting process launcher with search term 'p*.py'
+[2017-10-02 08:57:50,865 (line 37)]: 2 item(s) found for search_term p*.py
+[2017-10-02 08:57:50,866 (line 40)]: Registering p1.py for parallel execution.
+[2017-10-02 08:57:50,866 (line 40)]: Registering p2.py for parallel execution.
+[2017-10-02 08:57:50,867 (line 40)]: Registering process_launcher.py for parallel execution.
+[2017-10-02 08:57:50,867 (line 49)]: Opening process for p1.py
+[2017-10-02 08:57:50,879 (line 49)]: Opening process for p2.py
+[2017-10-02 08:57:50,909 (line 49)]: Opening process for process_launcher.py
+[2017-10-02 08:57:51,114 (line 25)]: sys.argv: ['process_launcher.py']
+[2017-10-02 08:57:51,115 (line 30)]: Starting process launcher with search term 'p*.py'
+[2017-10-02 08:57:51,115 (line 37)]: 2 item(s) found for search_term p*.py
+[2017-10-02 08:57:51,117 (line 40)]: Registering p1.py for parallel execution.
+[2017-10-02 08:57:51,118 (line 40)]: Registering p2.py for parallel execution.
+[2017-10-02 08:57:51,118 (line 40)]: Registering process_launcher.py for parallel execution.
+[2017-10-02 08:57:51,118 (line 49)]: Opening process for p1.py
+[2017-10-02 08:57:51,131 (line 49)]: Opening process for p2.py
+[2017-10-02 08:57:51,142 (line 49)]: Opening process for process_launcher.py
+[2017-10-02 08:57:51,343 (line 25)]: sys.argv: ['process_launcher.py']
+[2017-10-02 08:57:51,343 (line 30)]: Starting process launcher with search term 'p*.py'
+[2017-10-02 08:57:51,343 (line 37)]: 2 item(s) found for search_term p*.py
+[2017-10-02 08:57:51,345 (line 40)]: Registering p1.py for parallel execution.
+[2017-10-02 08:57:51,345 (line 40)]: Registering p2.py for parallel execution.
+[2017-10-02 08:57:51,345 (line 40)]: Registering process_launcher.py for parallel execution.
+[2017-10-02 08:57:51,346 (line 49)]: Opening process for p1.py
+[2017-10-02 08:57:51,357 (line 49)]: Opening process for p2.py
+[2017-10-02 08:57:51,367 (line 49)]: Opening process for process_launcher.py
+[2017-10-02 08:57:51,550 (line 25)]: sys.argv: ['process_launcher.py']
+[2017-10-02 08:57:51,551 (line 30)]: Starting process launcher with search term 'p*.py'
+[2017-10-02 08:57:51,551 (line 37)]: 2 item(s) found for search_term p*.py
+[2017-10-02 08:57:51,554 (line 40)]: Registering p1.py for parallel execution.
+[2017-10-02 08:57:51,554 (line 40)]: Registering p2.py for parallel execution.
+[2017-10-02 08:57:51,554 (line 40)]: Registering process_launcher.py for parallel execution.
+[2017-10-02 08:57:51,555 (line 49)]: Opening process for p1.py
+[2017-10-02 08:57:51,569 (line 49)]: Opening process for p2.py
+[2017-10-02 08:57:51,581 (line 49)]: Opening process for process_launcher.py
+[2017-10-02 08:57:51,730 (line 25)]: sys.argv: ['process_launcher.py']
+[2017-10-02 08:57:51,731 (line 30)]: Starting process launcher with search term 'p*.py'
+[2017-10-02 08:57:51,731 (line 37)]: 2 item(s) found for search_term p*.py
+[2017-10-02 08:57:51,732 (line 40)]: Registering p1.py for parallel execution.
+[2017-10-02 08:57:51,733 (line 40)]: Registering p2.py for parallel execution.
+[2017-10-02 08:57:51,733 (line 40)]: Registering process_launcher.py for parallel execution.
+[2017-10-02 08:57:51,733 (line 49)]: Opening process for p1.py
+[2017-10-02 08:57:51,745 (line 49)]: Opening process for p2.py
+[2017-10-02 08:57:51,755 (line 49)]: Opening process for process_launcher.py
+[2017-10-02 08:57:51,974 (line 25)]: sys.argv: ['process_launcher.py']
+[2017-10-02 08:57:51,975 (line 30)]: Starting process launcher with search term 'p*.py'
+[2017-10-02 08:57:51,975 (line 37)]: 2 item(s) found for search_term p*.py
+[2017-10-02 08:57:51,979 (line 40)]: Registering p1.py for parallel execution.
+[2017-10-02 08:57:51,980 (line 40)]: Registering p2.py for parallel execution.
+[2017-10-02 08:57:51,981 (line 40)]: Registering process_launcher.py for parallel execution.
+[2017-10-02 08:57:51,981 (line 49)]: Opening process for p1.py
+[2017-10-02 08:57:51,998 (line 49)]: Opening process for p2.py
+[2017-10-02 08:57:52,012 (line 49)]: Opening process for process_launcher.py
+[2017-10-02 08:57:52,160 (line 25)]: sys.argv: ['process_launcher.py']
+[2017-10-02 08:57:52,160 (line 30)]: Starting process launcher with search term 'p*.py'
+[2017-10-02 08:57:52,161 (line 37)]: 2 item(s) found for search_term p*.py
+[2017-10-02 08:57:52,162 (line 40)]: Registering p1.py for parallel execution.
+[2017-10-02 08:57:52,162 (line 40)]: Registering p2.py for parallel execution.
+[2017-10-02 08:57:52,163 (line 40)]: Registering process_launcher.py for parallel execution.
+[2017-10-02 08:57:52,163 (line 49)]: Opening process for p1.py
+[2017-10-02 08:57:52,175 (line 49)]: Opening process for p2.py
+[2017-10-02 08:57:52,185 (line 49)]: Opening process for process_launcher.py
+[2017-10-02 08:57:52,386 (line 25)]: sys.argv: ['process_launcher.py']
+[2017-10-02 08:57:52,387 (line 30)]: Starting process launcher with search term 'p*.py'
+[2017-10-02 08:57:52,387 (line 37)]: 2 item(s) found for search_term p*.py
+[2017-10-02 08:57:52,389 (line 40)]: Registering p1.py for parallel execution.
+[2017-10-02 08:57:52,390 (line 40)]: Registering p2.py for parallel execution.
+[2017-10-02 08:57:52,390 (line 40)]: Registering process_launcher.py for parallel execution.
+[2017-10-02 08:57:52,391 (line 49)]: Opening process for p1.py
+[2017-10-02 08:57:52,403 (line 49)]: Opening process for p2.py
+[2017-10-02 08:57:52,415 (line 49)]: Opening process for process_launcher.py
+[2017-10-02 08:57:52,581 (line 25)]: sys.argv: ['process_launcher.py']
+[2017-10-02 08:57:52,581 (line 30)]: Starting process launcher with search term 'p*.py'
+[2017-10-02 08:57:52,581 (line 37)]: 2 item(s) found for search_term p*.py
+[2017-10-02 08:57:52,583 (line 40)]: Registering p1.py for parallel execution.
+[2017-10-02 08:57:52,583 (line 40)]: Registering p2.py for parallel execution.
+[2017-10-02 08:57:52,583 (line 40)]: Registering process_launcher.py for parallel execution.
+[2017-10-02 08:57:52,584 (line 49)]: Opening process for p1.py
+[2017-10-02 08:57:52,595 (line 49)]: Opening process for p2.py
+[2017-10-02 08:57:52,606 (line 49)]: Opening process for process_launcher.py
+[2017-10-02 08:57:52,804 (line 25)]: sys.argv: ['process_launcher.py']
+[2017-10-02 08:57:52,805 (line 30)]: Starting process launcher with search term 'p*.py'
+[2017-10-02 08:57:52,805 (line 37)]: 2 item(s) found for search_term p*.py
+[2017-10-02 08:57:52,809 (line 40)]: Registering p1.py for parallel execution.
+[2017-10-02 08:57:52,810 (line 40)]: Registering p2.py for parallel execution.
+[2017-10-02 08:57:52,810 (line 40)]: Registering process_launcher.py for parallel execution.
+[2017-10-02 08:57:52,811 (line 49)]: Opening process for p1.py
+[2017-10-02 08:57:52,828 (line 49)]: Opening process for p2.py
+[2017-10-02 08:57:52,842 (line 49)]: Opening process for process_launcher.py
+[2017-10-02 08:58:37,717 (line 25)]: sys.argv: ['process_launcher.py']
+[2017-10-02 08:58:37,718 (line 30)]: Starting process launcher with search term 'xp*.py'
+[2017-10-02 08:58:37,718 (line 37)]: 2 item(s) found for search_term xp*.py
+[2017-10-02 08:59:03,780 (line 25)]: sys.argv: ['process_launcher.py']
+[2017-10-02 08:59:03,781 (line 30)]: Starting process launcher with search term 'xp*.py'
+[2017-10-02 08:59:03,782 (line 37)]: 0 item(s) found for search_term xp*.py
+[2017-10-02 08:59:58,075 (line 25)]: sys.argv: ['process_launcher.py']
+[2017-10-02 08:59:58,075 (line 30)]: Starting process launcher with search term 'xp*.py'
+[2017-10-02 08:59:58,077 (line 37)]: 2 item(s) found for search_term xp*.py
+[2017-10-02 08:59:58,078 (line 40)]: Registering xp1.py for parallel execution.
+[2017-10-02 08:59:58,079 (line 40)]: Registering xp2.py for parallel execution.
+[2017-10-02 08:59:58,079 (line 49)]: Opening process for xp1.py
+[2017-10-02 08:59:58,091 (line 49)]: Opening process for xp2.py
+[2017-10-02 09:02:39,078 (line 25)]: sys.argv: ['process_launcher.py']
+[2017-10-02 09:02:39,079 (line 30)]: Starting process launcher with search term 'xp*.py'
+[2017-10-02 09:02:39,080 (line 37)]: 2 item(s) found for search_term xp*.py
+[2017-10-02 09:02:39,082 (line 40)]: Registering xp1.py for parallel execution.
+[2017-10-02 09:02:39,082 (line 40)]: Registering xp2.py for parallel execution.
+[2017-10-02 09:02:39,083 (line 49)]: Opening process for xp1.py
+[2017-10-02 09:03:39,214 (line 49)]: Opening process for xp2.py
+[2017-10-02 09:39:06,079 (line 25)]: sys.argv: ['process_launcher.py', 'AE_UNIGRAM*']
+[2017-10-02 09:39:06,080 (line 30)]: Starting process launcher with search term 'AE_UNIGRAM*'
+[2017-10-02 09:39:06,081 (line 37)]: 20 item(s) found for search_term AE_UNIGRAM*
+[2017-10-02 09:39:06,083 (line 40)]: Registering AE_UNIGRAMA_1L_OVER_F1_0.py for parallel execution.
+[2017-10-02 09:39:06,083 (line 40)]: Registering AE_UNIGRAMA_1L_OVER_F1_1.py for parallel execution.
+[2017-10-02 09:39:06,084 (line 40)]: Registering AE_UNIGRAMA_1L_OVER_F1_2.py for parallel execution.
+[2017-10-02 09:39:06,084 (line 40)]: Registering AE_UNIGRAMA_1L_OVER_F1_3.py for parallel execution.
+[2017-10-02 09:39:06,084 (line 40)]: Registering AE_UNIGRAMA_1L_OVER_F1_4.py for parallel execution.
+[2017-10-02 09:39:06,085 (line 40)]: Registering AE_UNIGRAMA_1L_OVER_F1_5.py for parallel execution.
+[2017-10-02 09:39:06,085 (line 40)]: Registering AE_UNIGRAMA_1L_OVER_F1_6.py for parallel execution.
+[2017-10-02 09:39:06,086 (line 40)]: Registering AE_UNIGRAMA_1L_OVER_F1_7.py for parallel execution.
+[2017-10-02 09:39:06,086 (line 40)]: Registering AE_UNIGRAMA_1L_OVER_F1_8.py for parallel execution.
+[2017-10-02 09:39:06,086 (line 40)]: Registering AE_UNIGRAMA_1L_OVER_F1_9.py for parallel execution.
+[2017-10-02 09:39:06,087 (line 40)]: Registering AE_UNIGRAMA_1L_OVER_F2_0.py for parallel execution.
+[2017-10-02 09:39:06,087 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_1.py for parallel execution.
+[2017-10-02 09:39:06,088 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_2.py for parallel execution.
+[2017-10-02 09:39:06,088 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_3.py for parallel execution.
+[2017-10-02 09:39:06,088 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_4.py for parallel execution.
+[2017-10-02 09:39:06,089 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_5.py for parallel execution.
+[2017-10-02 09:39:06,089 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_6.py for parallel execution.
+[2017-10-02 09:39:06,089 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_7.py for parallel execution.
+[2017-10-02 09:39:06,090 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_8.py for parallel execution.
+[2017-10-02 09:39:06,090 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_9.py for parallel execution.
+[2017-10-02 09:39:06,090 (line 49)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_0.py
+[2017-10-02 09:39:11,559 (line 49)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_1.py
+[2017-10-02 09:39:16,279 (line 49)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_2.py
+[2017-10-02 09:39:21,300 (line 49)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_3.py
+[2017-10-02 09:41:14,117 (line 25)]: sys.argv: ['process_launcher.py', 'AE_UNIGRAM_1L_UNDER*']
+[2017-10-02 09:41:14,119 (line 30)]: Starting process launcher with search term 'AE_UNIGRAM_1L_UNDER*'
+[2017-10-02 09:41:14,122 (line 37)]: 0 item(s) found for search_term AE_UNIGRAM_1L_UNDER*
+[2017-10-02 09:41:31,827 (line 25)]: sys.argv: ['process_launcher.py', 'AE_UNIGRAMA_1L_UNDER*']
+[2017-10-02 09:41:31,828 (line 30)]: Starting process launcher with search term 'AE_UNIGRAMA_1L_UNDER*'
+[2017-10-02 09:41:31,830 (line 37)]: 9 item(s) found for search_term AE_UNIGRAMA_1L_UNDER*
+[2017-10-02 09:41:31,831 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_1.py for parallel execution.
+[2017-10-02 09:41:31,832 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_2.py for parallel execution.
+[2017-10-02 09:41:31,832 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_3.py for parallel execution.
+[2017-10-02 09:41:31,833 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_4.py for parallel execution.
+[2017-10-02 09:41:31,833 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_5.py for parallel execution.
+[2017-10-02 09:41:31,833 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_6.py for parallel execution.
+[2017-10-02 09:41:31,834 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_7.py for parallel execution.
+[2017-10-02 09:41:31,834 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_8.py for parallel execution.
+[2017-10-02 09:41:31,835 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_9.py for parallel execution.
+[2017-10-02 09:41:31,835 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_1.py
+[2017-10-02 09:41:40,481 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_2.py
+[2017-10-02 09:41:45,073 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_3.py
+[2017-10-02 09:41:52,931 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_4.py
+[2017-10-02 09:41:57,192 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_5.py
+[2017-10-02 09:42:03,791 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_6.py
+[2017-10-02 09:42:08,076 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_7.py
+[2017-10-02 09:42:16,279 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_8.py
+[2017-10-02 09:42:20,499 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_9.py
+[2017-10-02 09:43:19,262 (line 25)]: sys.argv: ['process_launcher.py', 'AE_UNIGRAMA_1L_UNDER*']
+[2017-10-02 09:43:19,262 (line 30)]: Starting process launcher with search term 'AE_UNIGRAMA_1L_UNDER*'
+[2017-10-02 09:43:19,264 (line 37)]: 9 item(s) found for search_term AE_UNIGRAMA_1L_UNDER*
+[2017-10-02 09:43:19,265 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_1.py for parallel execution.
+[2017-10-02 09:43:19,266 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_2.py for parallel execution.
+[2017-10-02 09:43:19,266 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_3.py for parallel execution.
+[2017-10-02 09:43:19,267 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_4.py for parallel execution.
+[2017-10-02 09:43:19,267 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_5.py for parallel execution.
+[2017-10-02 09:43:19,268 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_6.py for parallel execution.
+[2017-10-02 09:43:19,268 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_7.py for parallel execution.
+[2017-10-02 09:43:19,269 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_8.py for parallel execution.
+[2017-10-02 09:43:19,269 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_9.py for parallel execution.
+[2017-10-02 09:43:19,270 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_1.py
+[2017-10-02 09:43:36,380 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_2.py
+[2017-10-02 09:44:27,104 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_3.py
+[2017-10-02 09:44:46,907 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_4.py
+[2017-10-02 09:45:19,419 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_5.py
+[2017-10-02 09:45:53,055 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_6.py
+[2017-10-02 09:47:07,360 (line 25)]: sys.argv: ['process_launcher.py', 'AE_UNIGRAMA_1L_UNDER*']
+[2017-10-02 09:47:07,361 (line 30)]: Starting process launcher with search term 'AE_UNIGRAMA_1L_UNDER*'
+[2017-10-02 09:47:07,363 (line 37)]: 9 item(s) found for search_term AE_UNIGRAMA_1L_UNDER*
+[2017-10-02 09:47:07,364 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_1.py for parallel execution.
+[2017-10-02 09:47:07,364 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_2.py for parallel execution.
+[2017-10-02 09:47:07,365 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_3.py for parallel execution.
+[2017-10-02 09:47:07,365 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_4.py for parallel execution.
+[2017-10-02 09:47:07,365 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_5.py for parallel execution.
+[2017-10-02 09:47:07,366 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_6.py for parallel execution.
+[2017-10-02 09:47:07,366 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_7.py for parallel execution.
+[2017-10-02 09:47:07,367 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_8.py for parallel execution.
+[2017-10-02 09:47:07,367 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_9.py for parallel execution.
+[2017-10-02 09:47:07,367 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_1.py
+[2017-10-02 09:47:32,785 (line 25)]: sys.argv: ['process_launcher.py', 'AE_UNIGRAMA_1L_UNDER_F0_1*']
+[2017-10-02 09:47:32,786 (line 30)]: Starting process launcher with search term 'AE_UNIGRAMA_1L_UNDER_F0_1*'
+[2017-10-02 09:47:32,787 (line 37)]: 1 item(s) found for search_term AE_UNIGRAMA_1L_UNDER_F0_1*
+[2017-10-02 09:47:32,789 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_1.py for parallel execution.
+[2017-10-02 09:47:32,789 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_1.py
+[2017-10-02 09:50:36,986 (line 25)]: sys.argv: ['process_launcher.py', 'AE_UNIGRAMA_1L_UNDER_F0_1*']
+[2017-10-02 09:50:36,987 (line 30)]: Starting process launcher with search term 'AE_UNIGRAMA_1L_UNDER_F0_1*'
+[2017-10-02 09:50:36,989 (line 37)]: 1 item(s) found for search_term AE_UNIGRAMA_1L_UNDER_F0_1*
+[2017-10-02 09:50:36,991 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_1.py for parallel execution.
+[2017-10-02 09:50:36,991 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_1.py
+[2017-10-02 10:06:33,085 (line 25)]: sys.argv: ['process_launcher.py', 'AE_UNIGRAMA_1L*']
+[2017-10-02 10:06:33,086 (line 30)]: Starting process launcher with search term 'AE_UNIGRAMA_1L*'
+[2017-10-02 10:06:33,088 (line 37)]: 20 item(s) found for search_term AE_UNIGRAMA_1L*
+[2017-10-02 10:06:33,089 (line 40)]: Registering AE_UNIGRAMA_1L_OVER_F1_0.py for parallel execution.
+[2017-10-02 10:06:33,089 (line 40)]: Registering AE_UNIGRAMA_1L_OVER_F1_1.py for parallel execution.
+[2017-10-02 10:06:33,090 (line 40)]: Registering AE_UNIGRAMA_1L_OVER_F1_2.py for parallel execution.
+[2017-10-02 10:06:33,090 (line 40)]: Registering AE_UNIGRAMA_1L_OVER_F1_3.py for parallel execution.
+[2017-10-02 10:06:33,090 (line 40)]: Registering AE_UNIGRAMA_1L_OVER_F1_4.py for parallel execution.
+[2017-10-02 10:06:33,091 (line 40)]: Registering AE_UNIGRAMA_1L_OVER_F1_5.py for parallel execution.
+[2017-10-02 10:06:33,091 (line 40)]: Registering AE_UNIGRAMA_1L_OVER_F1_6.py for parallel execution.
+[2017-10-02 10:06:33,091 (line 40)]: Registering AE_UNIGRAMA_1L_OVER_F1_7.py for parallel execution.
+[2017-10-02 10:06:33,092 (line 40)]: Registering AE_UNIGRAMA_1L_OVER_F1_8.py for parallel execution.
+[2017-10-02 10:06:33,092 (line 40)]: Registering AE_UNIGRAMA_1L_OVER_F1_9.py for parallel execution.
+[2017-10-02 10:06:33,093 (line 40)]: Registering AE_UNIGRAMA_1L_OVER_F2_0.py for parallel execution.
+[2017-10-02 10:06:33,093 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_1.py for parallel execution.
+[2017-10-02 10:06:33,093 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_2.py for parallel execution.
+[2017-10-02 10:06:33,094 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_3.py for parallel execution.
+[2017-10-02 10:06:33,094 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_4.py for parallel execution.
+[2017-10-02 10:06:33,095 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_5.py for parallel execution.
+[2017-10-02 10:06:33,095 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_6.py for parallel execution.
+[2017-10-02 10:06:33,095 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_7.py for parallel execution.
+[2017-10-02 10:06:33,096 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_8.py for parallel execution.
+[2017-10-02 10:06:33,096 (line 40)]: Registering AE_UNIGRAMA_1L_UNDER_F0_9.py for parallel execution.
+[2017-10-02 10:06:33,096 (line 49)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_0.py
+[2017-10-02 10:07:30,086 (line 49)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_1.py
+[2017-10-02 10:08:42,543 (line 49)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_2.py
+[2017-10-02 10:10:01,318 (line 49)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_3.py
+[2017-10-02 10:10:39,091 (line 49)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_4.py
+[2017-10-02 10:11:19,033 (line 49)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_5.py
+[2017-10-02 10:12:41,330 (line 49)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_6.py
+[2017-10-02 10:13:20,190 (line 49)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_7.py
+[2017-10-02 10:14:48,298 (line 49)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_8.py
+[2017-10-02 10:16:12,594 (line 49)]: Opening process for AE_UNIGRAMA_1L_OVER_F1_9.py
+[2017-10-02 10:16:53,737 (line 49)]: Opening process for AE_UNIGRAMA_1L_OVER_F2_0.py
+[2017-10-02 10:18:19,757 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_1.py
+[2017-10-02 10:19:10,593 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_2.py
+[2017-10-02 10:19:45,960 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_3.py
+[2017-10-02 10:20:23,560 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_4.py
+[2017-10-02 10:20:58,529 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_5.py
+[2017-10-02 10:21:32,964 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_6.py
+[2017-10-02 10:22:08,651 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_7.py
+[2017-10-02 10:22:45,776 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_8.py
+[2017-10-02 10:23:23,899 (line 49)]: Opening process for AE_UNIGRAMA_1L_UNDER_F0_9.py
+[2017-10-02 10:30:05,105 (line 25)]: sys.argv: ['process_launcher.py', 'AE_BIGRAMA_1L*']
+[2017-10-02 10:30:05,105 (line 30)]: Starting process launcher with search term 'AE_BIGRAMA_1L*'
+[2017-10-02 10:30:05,107 (line 37)]: 20 item(s) found for search_term AE_BIGRAMA_1L*
+[2017-10-02 10:30:05,109 (line 40)]: Registering AE_BIGRAMA_1L_OVER_F1_0.py for parallel execution.
+[2017-10-02 10:30:05,109 (line 40)]: Registering AE_BIGRAMA_1L_OVER_F1_1.py for parallel execution.
+[2017-10-02 10:30:05,110 (line 40)]: Registering AE_BIGRAMA_1L_OVER_F1_2.py for parallel execution.
+[2017-10-02 10:30:05,110 (line 40)]: Registering AE_BIGRAMA_1L_OVER_F1_3.py for parallel execution.
+[2017-10-02 10:30:05,110 (line 40)]: Registering AE_BIGRAMA_1L_OVER_F1_4.py for parallel execution.
+[2017-10-02 10:30:05,111 (line 40)]: Registering AE_BIGRAMA_1L_OVER_F1_5.py for parallel execution.
+[2017-10-02 10:30:05,111 (line 40)]: Registering AE_BIGRAMA_1L_OVER_F1_6.py for parallel execution.
+[2017-10-02 10:30:05,112 (line 40)]: Registering AE_BIGRAMA_1L_OVER_F1_7.py for parallel execution.
+[2017-10-02 10:30:05,112 (line 40)]: Registering AE_BIGRAMA_1L_OVER_F1_8.py for parallel execution.
+[2017-10-02 10:30:05,112 (line 40)]: Registering AE_BIGRAMA_1L_OVER_F1_9.py for parallel execution.
+[2017-10-02 10:30:05,113 (line 40)]: Registering AE_BIGRAMA_1L_OVER_F2_0.py for parallel execution.
+[2017-10-02 10:30:05,113 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_1.py for parallel execution.
+[2017-10-02 10:30:05,114 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_2.py for parallel execution.
+[2017-10-02 10:30:05,114 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_3.py for parallel execution.
+[2017-10-02 10:30:05,114 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_4.py for parallel execution.
+[2017-10-02 10:30:05,115 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_5.py for parallel execution.
+[2017-10-02 10:30:05,115 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_6.py for parallel execution.
+[2017-10-02 10:30:05,115 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_7.py for parallel execution.
+[2017-10-02 10:30:05,116 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_8.py for parallel execution.
+[2017-10-02 10:30:05,116 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_9.py for parallel execution.
+[2017-10-02 10:30:05,117 (line 49)]: Opening process for AE_BIGRAMA_1L_OVER_F1_0.py
+[2017-10-02 12:26:56,613 (line 25)]: sys.argv: ['process_launcher.py', 'AE_BIGRAMA_1L_UNDER*']
+[2017-10-02 12:26:56,613 (line 30)]: Starting process launcher with search term 'AE_BIGRAMA_1L_UNDER*'
+[2017-10-02 12:26:56,616 (line 37)]: 9 item(s) found for search_term AE_BIGRAMA_1L_UNDER*
+[2017-10-02 12:26:56,617 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_1.py for parallel execution.
+[2017-10-02 12:26:56,618 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_2.py for parallel execution.
+[2017-10-02 12:26:56,618 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_3.py for parallel execution.
+[2017-10-02 12:26:56,619 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_4.py for parallel execution.
+[2017-10-02 12:26:56,619 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_5.py for parallel execution.
+[2017-10-02 12:26:56,620 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_6.py for parallel execution.
+[2017-10-02 12:26:56,620 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_7.py for parallel execution.
+[2017-10-02 12:26:56,621 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_8.py for parallel execution.
+[2017-10-02 12:26:56,621 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_9.py for parallel execution.
+[2017-10-02 12:26:56,622 (line 49)]: Opening process for AE_BIGRAMA_1L_UNDER_F0_1.py
+[2017-10-02 13:36:30,458 (line 49)]: Opening process for AE_BIGRAMA_1L_UNDER_F0_2.py
+[2017-10-02 15:24:11,527 (line 25)]: sys.argv: ['process_launcher.py', 'AE_BIGRAMA_1L_UNDER*']
+[2017-10-02 15:24:11,528 (line 30)]: Starting process launcher with search term 'AE_BIGRAMA_1L_UNDER*'
+[2017-10-02 15:24:11,530 (line 37)]: 9 item(s) found for search_term AE_BIGRAMA_1L_UNDER*
+[2017-10-02 15:24:11,532 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_1.py for parallel execution.
+[2017-10-02 15:24:11,533 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_2.py for parallel execution.
+[2017-10-02 15:24:11,533 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_3.py for parallel execution.
+[2017-10-02 15:24:11,533 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_4.py for parallel execution.
+[2017-10-02 15:24:11,534 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_5.py for parallel execution.
+[2017-10-02 15:24:11,534 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_6.py for parallel execution.
+[2017-10-02 15:24:11,535 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_7.py for parallel execution.
+[2017-10-02 15:24:11,535 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_8.py for parallel execution.
+[2017-10-02 15:24:11,535 (line 40)]: Registering AE_BIGRAMA_1L_UNDER_F0_9.py for parallel execution.
+[2017-10-02 15:24:11,536 (line 49)]: Opening process for AE_BIGRAMA_1L_UNDER_F0_1.py
+[2017-10-02 15:24:16,969 (line 49)]: Opening process for AE_BIGRAMA_1L_UNDER_F0_2.py
+[2017-10-02 15:24:21,690 (line 49)]: Opening process for AE_BIGRAMA_1L_UNDER_F0_3.py
+[2017-10-02 15:24:28,518 (line 49)]: Opening process for AE_BIGRAMA_1L_UNDER_F0_4.py

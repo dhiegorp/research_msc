@@ -1,12 +1,12 @@
 import os.path
-from GLOBAL_EXP_CONFIG_1L_UNIGRAM import *
 
-def mark_as_done(network_name):
-	with open(GLOBAL['executed_dir'] + network_name, 'a') as file:
+
+def mark_as_done(network_name_path):
+	with open(network_name_path, 'a') as file:
 		file.write('done!');
 
-def is_executed(network_name):
-	return os.path.isfile(GLOBAL['executed_dir'] + network_name)
+def is_executed(network_name_path):
+	return os.path.isfile(network_name_path)
 
 def extract_name(str):
 	return str[0].split('.')[0]

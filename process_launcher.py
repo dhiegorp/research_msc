@@ -6,7 +6,7 @@ import logging
 
 processes = []
 running = []
-search_term = "AE_*.py"
+search_term = None
 
 logFormat = logging.Formatter('[%(asctime)s (line %(lineno)s)]: %(message)s')
 
@@ -33,6 +33,7 @@ def load():
 	global processes
 
 	filelist = glob.glob( search_term )
+	
 	logging.debug(str(len(filelist)) + ' item(s) found for search_term ' + search_term) 
 
 	for filename in glob.glob( search_term ):
@@ -46,10 +47,12 @@ def run():
 
 	for proc in processes:
 		logging.debug('Opening process for ' + proc)
-		running.append( subprocess.Popen( [sys.executable, proc] ) )
+		subprocess.call([sys.executable, proc])
+		#running.append( subprocess.Popen( [sys.executable, proc] ) )
 
-	for proc in running:
-		proc.wait()	
+
+	#for proc in running:
+	#	proc.wait()	
 
 def main():
 	load()

@@ -1,4 +1,5 @@
 from keras.optimizers import SGD
+from keras.callbacks import TensorBoard, ModelCheckpoint, EarlyStopping
 import os.path
 
 GLOBAL = {
@@ -8,10 +9,10 @@ GLOBAL = {
 	'reports_dir':'E:/research/research_msc/reports/onelayer/unigram/',
 	'tensorflow_dir':'E:/research/research_msc/tensorflow/onelayer/unigram/',
 	'checkpoints_dir':'E:/research/research_msc/checkpoints/onelayer/unigram/',
-	'executed_dir':'E:/research/research_msc/executed/onelayer/unigram/',
-	'data_dir':'E:/research/malware_dataset/malware_selected_1gram.pkl',
+	'executed_path':'E:/research/research_msc/executed/onelayer/unigram/',
+	'data_dir':'E:/research/malware_dataset/malware_selected_1gram_mini.pkl',
 	'data_target_list' : [1,2,3,4,5,6,7,8,9],
-	'epochs': 1000,
+	'epochs': 200,
 	'batch': 32,
 	'store_history' : True,
 	'shuffle_batches' : True,
@@ -33,3 +34,21 @@ GLOBAL = {
 
 
 }
+
+def get_ae_callbacks(network_name):
+	ae_callbacks = [
+		EarlyStopping(monitor='val_loss', min_delta=0.01, patience=100, verbose=1, mode='min'),
+		ModelCheckpoint(GLOBAL['checkpoints_dir'] + network_name + '.h5', monitor='val_loss', save_best_only=True, verbose=1), 
+		TensorBoard(log_dir=GLOBAL['tensorflow_dir'] + network_name , histogram_freq=1, write_graph=True)	
+	]
+	return ae_callbacks
+
+def get_mlp_callbacks(network_name):
+
+	mlp_callbacks = [
+		EarlyStopping(monitor='acc', min_delta=0.01, patience=100, verbose=1, mode='max'),
+		ModelCheckpoint(GLOBAL['checkpoints_dir'] + network_name + '_mlp.h5', monitor='val_acc', save_best_only=True, verbose=1), 
+		TensorBoard(log_dir=GLOBAL['tensorflow_dir'] + network_name + '_mlp', histogram_freq=1, write_graph=True)	
+	]
+	return mlp_callbacks
+
