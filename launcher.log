@@ -662,3 +662,29 @@
 [2017-10-02 15:24:16,969 (line 49)]: Opening process for AE_BIGRAMA_1L_UNDER_F0_2.py
 [2017-10-02 15:24:21,690 (line 49)]: Opening process for AE_BIGRAMA_1L_UNDER_F0_3.py
 [2017-10-02 15:24:28,518 (line 49)]: Opening process for AE_BIGRAMA_1L_UNDER_F0_4.py
+[2017-10-10 15:32:02,275 (line 25)]: sys.argv: ['process_launcher.py', 'AE_UNIGRAMA_2L*']
+[2017-10-10 15:32:02,275 (line 30)]: Starting process launcher with search term 'AE_UNIGRAMA_2L*'
+[2017-10-10 15:32:02,275 (line 37)]: 5 item(s) found for search_term AE_UNIGRAMA_2L*
+[2017-10-10 15:32:02,275 (line 40)]: Registering AE_UNIGRAMA_2L_OVER_96_134_124_9.py for parallel execution.
+[2017-10-10 15:32:02,275 (line 40)]: Registering AE_UNIGRAMA_2L_OVER_96_172-162_9.py for parallel execution.
+[2017-10-10 15:32:02,275 (line 40)]: Registering AE_UNIGRAMA_2L_UNDER_96_28_25_9.py for parallel execution.
+[2017-10-10 15:32:02,275 (line 40)]: Registering AE_UNIGRAMA_2L_UNDER_96_76_66_9.py for parallel execution.
+[2017-10-10 15:32:02,275 (line 40)]: Registering AE_UNIGRAMA_2L_UNDER_96_86_76_9.py for parallel execution.
+[2017-10-10 15:32:02,275 (line 49)]: Opening process for AE_UNIGRAMA_2L_OVER_96_134_124_9.py
+[2017-10-10 15:32:27,086 (line 49)]: Opening process for AE_UNIGRAMA_2L_OVER_96_172-162_9.py
+[2017-10-10 15:32:31,509 (line 49)]: Opening process for AE_UNIGRAMA_2L_UNDER_96_28_25_9.py
+[2017-10-10 15:32:35,928 (line 49)]: Opening process for AE_UNIGRAMA_2L_UNDER_96_76_66_9.py
+[2017-10-10 15:32:40,365 (line 49)]: Opening process for AE_UNIGRAMA_2L_UNDER_96_86_76_9.py
+[2017-10-10 15:42:17,558 (line 25)]: sys.argv: ['process_launcher.py', 'AE_UNIGRAMA_2L*']
+[2017-10-10 15:42:17,558 (line 30)]: Starting process launcher with search term 'AE_UNIGRAMA_2L*'
+[2017-10-10 15:42:17,558 (line 37)]: 5 item(s) found for search_term AE_UNIGRAMA_2L*
+[2017-10-10 15:42:17,558 (line 40)]: Registering AE_UNIGRAMA_2L_OVER_96_134_124_9.py for parallel execution.
+[2017-10-10 15:42:17,558 (line 40)]: Registering AE_UNIGRAMA_2L_OVER_96_172-162_9.py for parallel execution.
+[2017-10-10 15:42:17,558 (line 40)]: Registering AE_UNIGRAMA_2L_UNDER_96_28_25_9.py for parallel execution.
+[2017-10-10 15:42:17,558 (line 40)]: Registering AE_UNIGRAMA_2L_UNDER_96_76_66_9.py for parallel execution.
+[2017-10-10 15:42:17,558 (line 40)]: Registering AE_UNIGRAMA_2L_UNDER_96_86_76_9.py for parallel execution.
+[2017-10-10 15:42:17,558 (line 49)]: Opening process for AE_UNIGRAMA_2L_OVER_96_134_124_9.py
+[2017-10-10 15:44:32,094 (line 49)]: Opening process for AE_UNIGRAMA_2L_OVER_96_172-162_9.py
+[2017-10-10 15:49:12,489 (line 49)]: Opening process for AE_UNIGRAMA_2L_UNDER_96_28_25_9.py
+[2017-10-10 15:51:35,957 (line 49)]: Opening process for AE_UNIGRAMA_2L_UNDER_96_76_66_9.py
+[2017-10-10 15:53:26,453 (line 49)]: Opening process for AE_UNIGRAMA_2L_UNDER_96_86_76_9.py

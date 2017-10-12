@@ -10,7 +10,6 @@ from datasets.dataset_loader import DatasetLoader
 from keras.callbacks import TensorBoard, ModelCheckpoint, EarlyStopping
 
 network_name = extract_name(sys.argv)
-network_name_path = GLOBAL['executed_path'] + network_name
 
 """
 SET ENCODER FUNCTION'S LAYERS ON layers LIST
@@ -26,13 +25,13 @@ classifier_predictions = None
 trainx, trainy, valx, valy = None, None, None, None
 
 ae_callbacks = [
-	EarlyStopping(monitor='val_loss', min_delta=0.01, patience=100, verbose=1, mode='min'),
+	EarlyStopping(monitor='val_loss', min_delta=0.01, patience=50, verbose=1, mode='min'),
 	ModelCheckpoint(GLOBAL['checkpoints_dir'] + network_name + '.h5', monitor='val_loss', save_best_only=True, verbose=1), 
 	TensorBoard(log_dir=GLOBAL['tensorflow_dir'] + network_name , histogram_freq=1, write_graph=True)	
 ]
 
 mlp_callbacks = [
-	EarlyStopping(monitor='acc', min_delta=0.01, patience=100, verbose=1, mode='max'),
+	EarlyStopping(monitor='acc', min_delta=0.01, patience=50, verbose=1, mode='max'),
 	ModelCheckpoint(GLOBAL['checkpoints_dir'] + network_name + '_mlp.h5', monitor='val_acc', save_best_only=True, verbose=1), 
 	TensorBoard(log_dir=GLOBAL['tensorflow_dir'] + network_name + '_mlp', histogram_freq=1, write_graph=True)	
 ]
@@ -92,7 +91,7 @@ def execute_autoencoder():
 		batch_size=GLOBAL['batch'], 
 		shuffle=GLOBAL['shuffle_batches'], 
 		store_history=GLOBAL['store_history'], 
-		callbacks = get_ae_callbacks(network_name) )
+		callbacks = ae_callbacks )
 
 	logging.debug("trained and evaluated!")	
 	
@@ -129,7 +128,7 @@ def execute_mlp():
 		batch_size=GLOBAL['batch'], 
 		shuffle=GLOBAL['shuffle_batches'], 
 		store_history=GLOBAL['store_history'],
-		callbacks=get_mlp_callbacks(network_name) )
+		callbacks=mlp_callbacks )
 
 	logging.debug("trained!")	
 	
@@ -151,7 +150,10 @@ def execute_mlp():
 	
 
 def execute():
-	if is_executed(network_name_path):
+
+	executed_file = GLOBAL['executed_dir'] + network_name
+
+	if is_executed(executed_file):
 		logging.debug("The experiment " + network_name + " was already executed!")
 	else:
 		logging.debug(">> Initializing execution of experiment " + network_name )
@@ -164,7 +166,7 @@ def execute():
 		logging.debug(">> Executing classifier part ... ")
 		execute_mlp()
 		logging.debug(">> experiment " + network_name + " finished!")
-		mark_as_done(network_name_path)
+		mark_as_done(executed_file)
 
 def main():
 	execute()

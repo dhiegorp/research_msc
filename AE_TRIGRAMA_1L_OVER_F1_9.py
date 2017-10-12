@@ -9,7 +9,6 @@ from datasets.dataset_loader import DatasetLoader
 from keras.callbacks import TensorBoard, ModelCheckpoint, EarlyStopping
 
 network_name = extract_name(sys.argv)
-network_name_path = GLOBAL['executed_path'] + network_name
 
 """
 SET ENCODER FUNCTION'S LAYERS ON layers LIST
@@ -149,7 +148,10 @@ def execute_mlp():
 	logging.debug('done!')
 	
 def execute():
-	if is_executed(network_name_path):
+
+	executed_file = GLOBAL['executed_dir'] + network_name
+
+	if is_executed(executed_file):
 		logging.debug("The experiment " + network_name + " was already executed!")
 	else:
 		logging.debug(">> Initializing execution of experiment " + network_name )
@@ -162,8 +164,7 @@ def execute():
 		logging.debug(">> Executing classifier part ... ")
 		execute_mlp()
 		logging.debug(">> experiment " + network_name + " finished!")
-		mark_as_done(network_name_path)
-
+		mark_as_done(executed_file)
 def main():
 	execute()
 
