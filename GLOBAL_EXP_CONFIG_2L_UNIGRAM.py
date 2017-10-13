@@ -2,26 +2,22 @@ from keras.optimizers import SGD
 from keras.callbacks import TensorBoard, ModelCheckpoint, EarlyStopping
 import os.path
 
+environment = Environment()
+base_path = environment.base_path
+ds_path = environment.dataset_base_path
+
+
 GLOBAL = {
 	'numpy_seed': 666,
 	'log_format': '[%(asctime)s %(filename)s:%(lineno)s]: %(message)s',
-	#'log_dir': 'E:/research/research_msc/logs/2layers/unigram/',
-	#'reports_dir':'E:/research/research_msc/reports/2layers/unigram/',
-	#'fullds_reports_dir':'E:/research/research_msc/reports/2layers/unigram/fullds/',
-	#'tensorflow_dir':'E:/research/research_msc/tensorflow/2layers/unigram/',
-	#'checkpoints_dir':'E:/research/research_msc/checkpoints/2layers/unigram/',
-	#'executed_path':'E:/research/research_msc/executed/2layers/unigram/',
-	#'data_dir':'E:/research/malware_dataset/malware_selected_1gram_mini.pkl',
-	#'fullds_data_dir':'E:/research/malware_dataset/malware_selected_1gram.pkl',
-	
-	'log_dir': 'C:/Users/dhieg/research/research_msc/logs/2layers/unigram/',
-	'reports_dir':'C:/Users/dhieg/research/research_msc/reports/2layers/unigram/',
-	'fullds_reports_dir':'C:/Users/dhieg/research/research_msc/reports/2layers/unigram/fullds/',
-	'tensorflow_dir':'C:/Users/dhieg/research/research_msc/tensorflow/2layers/unigram/',
-	'checkpoints_dir':'C:/Users/dhieg/research/research_msc/checkpoints/2layers/unigram/',
-	'executed_path':'C:/Users/dhieg/research/research_msc/executed/2layers/unigram/',
-	'data_dir':'C:/Users/dhieg/research/malware_dataset/malware_selected_1gram_mini.pkl',
-	'fullds_data_dir':'C:/Users/dhieg/research/malware_dataset/malware_selected_1gram.pkl',
+	'log_dir': base_path + '/logs/2layers/unigram/',
+	'reports_dir': base_path + '/reports/2layers/unigram/',
+	'fullds_reports_dir': base_path + '/reports/2layers/unigram/fullds/',
+	'tensorflow_dir': base_path + '/tensorflow/2layers/unigram/',
+	'checkpoints_dir':base_path + '/checkpoints/2layers/unigram/',
+	'executed_path':base_path + '/executed/2layers/unigram/',
+	'data_dir': ds_path + '/malware_selected_1gram_mini.pkl',
+	'fullds_data_dir':ds_path + '/malware_selected_1gram.pkl',
 	
 
 	'data_target_list' : [1,2,3,4,5,6,7,8,9],
